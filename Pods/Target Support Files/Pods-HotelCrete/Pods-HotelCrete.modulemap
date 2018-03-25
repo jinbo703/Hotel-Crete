@@ -1,0 +1,6 @@
+framework module Pods_HotelCrete {
+  umbrella header "Pods-HotelCrete-umbrella.h"
+
+  export *
+  module * { export * }
+}

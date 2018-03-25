@@ -1,0 +1,16 @@
+/* 
+  ButtonTitles.strings
+  HotelCrete
+
+  Created by John Nik on 01/03/2018.
+  Copyright © 2018 John Nik. All rights reserved.
+*/
+
+"English" = "English";
+"German" = "Deutsch";
+"Russian" = "Pусский";
+"French" = "Français";
+"Italian" = "Italiano";
+
+
+"Next" = "Nächster";

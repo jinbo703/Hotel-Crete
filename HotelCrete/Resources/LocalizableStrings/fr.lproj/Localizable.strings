@@ -1,0 +1,106 @@
+/* 
+  Localizable.strings
+  HotelCrete
+
+  Created by John Nik on 01/03/2018.
+  Copyright © 2018 John Nik. All rights reserved.
+*/
+
+"Please use Latin characters" = "Veuillez utiliser des caractères latins";
+"Enter a code" = "Entrez un code";
+"Ok" = "D'accord";
+"OK" = "D'accord";
+"Cancel" = "Annuler";
+"Internet Error" = "Erreur Internet";
+"Fail" = "Échouer";
+"Invalid Code" = "Code invalide";
+"Please enter a valid code" = "Veuillez entrer un code valide";
+"Invalid hotel number" = "Numéro d'hôtel incorrect";
+"Invalid User" = "Utilisateur invalide";
+"Oops, looks like something is wrong with your Internet" = "Oups, il semble que quelque chose ne va pas avec votre Internet";
+"It is suggested that at least one guest from each room should register in order to receive messages from the hotel and to be able to fill in the hotel questionnaire" = "Il est suggéré qu'au moins un invité de chaque chambre doit s'inscrire afin de recevoir des messages de l'hôtel et être en mesure de remplir le questionnaire de l'hôtel";
+"Surname" = "Nom de famille";
+"Name" = "prénom";
+"Email (Optional)" = "Email (Optionnel)";
+"Please use Latin characters" = "Veuillez utiliser des caractères latins";
+"Check-in date" = "Date d'arrivée";
+"Check-out date" = "Date de départ";
+"Register" = "registre";
+"Skip" = "Sauter";
+"Register Fail" = "Enregistrement Échec";
+"Invalid Surname" = "Nom de famille invalide";
+"Please enter a valid Surname" = "Veuillez entrer un nom de famille valide";
+"Invalid name" = "Nom incorrect";
+"Please enter a valid name" = "Merci d'entrer un nom valide";
+"Invalid Checkin Date" = "Date d'arrivée invalide";
+"Please choose a Checkin Date" = "Veuillez choisir une date d'arrivée";
+"Invalid Checkout Date" = "Date de validation incorrecte";
+"Please choose a Checkout Date" = "Veuillez choisir une date de sortie";
+"Server Error" = "erreur du serveur";
+"Messages" = "messages";
+"Weather" = "Météo";
+"Greek is not an easy language, but it is a beautiful one and even a brief acquaintance will give you some idea of the debt western European languages owe to it. To beginn with it, the best thing is simply to say what you know the way you know it and never mind the niceties. If you worry about mistakes, you will never say anything." = "Le grec n'est pas une langue facile, mais elle est belle et même une brève connaissance vous donnera une idée de la dette que les langues d'Europe occidentale lui doivent. Pour commencer, la meilleure chose à faire est simplement de dire ce que vous savez de la façon dont vous le savez et ne vous occupez pas des subtilités. Si vous vous inquiétez des erreurs, vous ne direz jamais rien.";
+"Greek Words" = "Mots grecs";
+"General Info" = "Informations générales";
+"Useful Numbers" = "Numéros utiles";
+"Map" = "Carte";
+"Sorry, you should register to sumbit questionnaires first" = "Désolé, vous devez d'abord vous inscrire pour soumettre vos questionnaires";
+"Do you want to register now?" = "Voulez-vous vous inscrire maintenant?";
+"Annabelle Beach Resort" = "Annabelle Beach Resort";
+"Success!" = "Succès!";
+"Thank you for your feedback." = "Merci pour votre avis.";
+"Google Map" = "Google Map";
+"Apple Map" = "Apple Map";
+"Home Page" = "Page d'accueil";
+"Message" = "Message";
+"Useful tel. numbers" = "Tél. Utile Nombres";
+"Change Language" = "Changer de langue";
+"Change Hotel Code" = "Changer le code de l'hôtel";
+"Sorry, you should register to get messages from your hotel" = "Désolé, vous devez vous enregistrer pour recevoir des messages de votre hôtel";
+"Menu" = "Menu";
+"Hotel & Crete" = "Hôtel et Crète";
+"Are you sure you want to change your hotel code?" = "Êtes-vous sûr de vouloir changer le code de votre hôtel?";
+"Yes" = "Oui";
+"No" = "Non";
+"Waze" = "Waze";
+"Can't find the app on your phone." = "Impossible de trouver l'application sur votre téléphone.";
+
+"Services" = "Prestations de service";
+"Facilities" = "Installations";
+"Accommodation" = "Hébergement";
+"Social Media" = "Des médias sociaux";
+"Questionnaire" = "Questionnaire";
+"Contact Us" = "Contactez nous";
+"CRETE" = "CRÈTE";
+
+"Choose" = "Choisir";
+"Excellent" = "Excellent";
+"Very good" = "Très bien";
+"Good" = "Bien";
+"Average" = "Moyenne";
+"Poor" = "Pauvre";
+"Maybe" = "Peut être";
+"Done" = "Terminé";
+"Please tell us your opinion" = "S'il vous plaît dites-nous votre opinion";
+"Overall Rating" = "Note globale";
+"Submit" = "Soumettre";
+
+"About Crete" = "À propos de la Crète";
+"Guide To Crete" = "Guide de la Crète";
+
+"SightSeeing" = "Tourisme";
+"Direction" = "Direction";
+
+"Today" = "Aujourd'hui";
+"Monday" = "Lundi";
+"Tuesday" = "Mardi";
+"Wednesday" = "Mercredi";
+"Thursday" = "Jeudi";
+"Friday" = "Vendredi";
+"Saturday" = "Samedi";
+"Sunday" = "Dimanche";
+"Rain" = "Pluie";
+"Clear" = "Clair";
+
+
+

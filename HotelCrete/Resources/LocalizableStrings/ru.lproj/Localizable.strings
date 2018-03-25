@@ -1,0 +1,104 @@
+/* 
+  Localizable.strings
+  HotelCrete
+
+  Created by John Nik on 01/03/2018.
+  Copyright © 2018 John Nik. All rights reserved.
+*/
+"Please use Latin characters" = "Пожалуйста, используйте латинские буквы";
+"Enter a code" = "Введите код";
+"Ok" = "ОК";
+"OK" = "OK";
+"Cancel" = "Отмена";
+"Internet Error" = "Ошибка в Интернете";
+"Fail" = "Потерпеть неудачу";
+"Invalid Code" = "Неверный код";
+"Please enter a valid code" = "Введите действительный код";
+"Invalid hotel number" = "Недопустимый номер отеля";
+"Invalid User" = "Недействительный пользователь";
+"Oops, looks like something is wrong with your Internet" = "Ой, похоже, что что-то не так с вашим Интернетом";
+"It is suggested that at least one guest from each room should register in order to receive messages from the hotel and to be able to fill in the hotel questionnaire" = "Предполагается, что по крайней мере один гость из каждой комнаты должен зарегистрироваться для получения сообщений от отеля и для заполнения вопросника отеля";
+"Surname" = "Фамилия";
+"Name" = "имя";
+"Email (Optional)" = "Эл. адрес (Необязательный)";
+"Please use Latin characters" = "Пожалуйста, используйте латинские буквы";
+"Check-in date" = "Дата заезда";
+"Check-out date" = "Проверить дату";
+"Register" = "регистр";
+"Skip" = "Пропускать";
+"Register Fail" = "Ошибка регистрации";
+"Invalid Surname" = "Неверная фамилия";
+"Please enter a valid Surname" = "Введите действительную фамилию";
+"Invalid name" = "Неверное имя";
+"Please enter a valid name" = "Пожалуйста, введите верное имя";
+"Invalid Checkin Date" = "Недействительная дата регистрации";
+"Please choose a Checkin Date" = "Выберите дату регистрации";
+"Invalid Checkout Date" = "Недействительная дата проверки";
+"Please choose a Checkout Date" = "Выберите дату выписки";
+"Server Error" = "Ошибка сервера";
+"Messages" = "Сообщения";
+"Weather" = "Погода";
+"Greek is not an easy language, but it is a beautiful one and even a brief acquaintance will give you some idea of the debt western European languages owe to it. To beginn with it, the best thing is simply to say what you know the way you know it and never mind the niceties. If you worry about mistakes, you will never say anything." = "Греческий язык - нелегкий язык, но он красивый, и даже краткое знакомство даст вам некоторое представление о долге западноевропейских языков. Чтобы начать с этого, лучше всего просто сказать, что вы знаете, как вы это знаете, и не забывайте о тонкостях. Если вы беспокоитесь о ошибках, вы никогда ничего не скажете.";
+"Greek Words" = "Греческие слова";
+"General Info" = "Главная информация";
+"Useful Numbers" = "Полезные номера";
+"Map" = "карта";
+"Sorry, you should register to sumbit questionnaires first" = "Извините, вы должны зарегистрироваться, чтобы сначала отправить вопросники";
+"Do you want to register now?" = "Вы хотите зарегистрироваться сейчас?";
+"Annabelle Beach Resort" = "Annabelle Beach Resort";
+"Success!" = "Успех!";
+"Thank you for your feedback." = "Спасибо за ваш отзыв.";
+"Google Map" = "Google Map";
+"Apple Map" = "Apple Map";
+"Home Page" = "Главная страница";
+"Message" = "Сообщение";
+"Useful tel. numbers" = "Полезный тел. чисел";
+"Change Language" = "Изменить язык";
+"Change Hotel Code" = "Изменить код отеля";
+"Sorry, you should register to get messages from your hotel" = "Извините, вы должны зарегистрироваться, чтобы получать сообщения от вашего отеля.";
+"Menu" = "Меню";
+"Hotel & Crete" = "Отель и Крит";
+"Are you sure you want to change your hotel code?" = "Вы действительно хотите изменить код отеля?";
+"Yes" = "да";
+"No" = "нет";
+"Waze" = "Waze";
+"Can't find the app on your phone." = "Не удается найти приложение на своем телефоне.";
+
+"Services" = "Сервисы";
+"Facilities" = "Услуги";
+"Accommodation" = "Жилье";
+"Social Media" = "Социальные медиа";
+"Questionnaire" = "Анкета";
+"Contact Us" = "Свяжитесь с нами";
+"CRETE" = "КРИТ";
+
+"Choose" = "Выберите";
+"Excellent" = "Отлично";
+"Very good" = "Отлично";
+"Good" = "Хорошо";
+"Average" = "В среднем";
+"Poor" = "Бедные";
+"Maybe" = "Может быть";
+"Done" = "Готово";
+"Please tell us your opinion" = "Пожалуйста, сообщите нам свое мнение";
+"Overall Rating" = "Общая оценка";
+"Submit" = "Отправить";
+
+"About Crete" = "О Крите";
+"Guide To Crete" = "Путеводитель по Крите";
+
+"SightSeeing" = "ОБЗОРНАЯ";
+"Direction" = "направление";
+
+"Today" = "Cегодня";
+"Monday" = "Понедельник";
+"Tuesday" = "Вторник";
+"Wednesday" = "Среда";
+"Thursday" = "Четверг";
+"Friday" = "Пятница";
+"Saturday" = "Суббота";
+"Sunday" = "Воскресенье";
+"Rain" = "Дождь";
+"Clear" = "Очистить";
+
+

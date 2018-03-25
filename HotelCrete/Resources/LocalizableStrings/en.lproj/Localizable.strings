@@ -1,0 +1,111 @@
+/* 
+  Localizable.strings
+  HotelCrete
+
+  Created by John Nik on 01/03/2018.
+  Copyright © 2018 John Nik. All rights reserved.
+*/
+
+"Please use Latin characters" = "Please use Latin characters";
+"Enter a code" = "Enter a code";
+"Ok" = "Ok";
+"OK" = "OK";
+"Cancel" = "Cancel";
+"Internet Error" = "Internet Error";
+"Fail" = "Fail";
+"Invalid Code" = "Invalid Code";
+"Please enter a valid code" = "Please enter a valid code";
+"Invalid hotel number" = "Invalid hotel number";
+"Invalid User" = "Invalid User";
+"Oops, looks like something is wrong with your Internet" = "Oops, looks like something is wrong with your Internet";
+"It is suggested that at least one guest from each room should register in order to receive messages from the hotel and to be able to fill in the hotel questionnaire" = "It is suggested that at least one guest from each room should register in order to receive messages from the hotel and to be able to fill in the hotel questionnaire";
+"Surname" = "Surname";
+"Name" = "Name";
+"Email (Optional)" = "Email (Optional)";
+"Please use Latin characters" = "Please use Latin characters";
+"Check-in date" = "Check-in date";
+"Check-out date" = "Check-out date";
+"Register" = "Register";
+"Skip" = "Skip";
+"Register Fail" = "Register Fail";
+"Invalid Surname" = "Invalid Surname";
+"Please enter a valid Surname" = "Please enter a valid Surname";
+"Invalid name" = "Invalid name";
+"Please enter a valid name" = "Please enter a valid name";
+"Invalid Checkin Date" = "Invalid Checkin Date";
+"Please choose a Checkin Date" = "Please choose a Checkin Date";
+"Invalid Checkout Date" = "Invalid Checkout Date";
+"Please choose a Checkout Date" = "Please choose a Checkout Date";
+"Server Error" = "Server Error";
+"Messages" = "Messages";
+"Weather" = "Weather";
+"Greek is not an easy language, but it is a beautiful one and even a brief acquaintance will give you some idea of the debt western European languages owe to it. To beginn with it, the best thing is simply to say what you know the way you know it and never mind the niceties. If you worry about mistakes, you will never say anything." = "Greek is not an easy language, but it is a beautiful one and even a brief acquaintance will give you some idea of the debt western European languages owe to it. To beginn with it, the best thing is simply to say what you know the way you know it and never mind the niceties. If you worry about mistakes, you will never say anything.";
+"Greek Words" = "Greek Words";
+"General Info" = "General Info";
+"Useful Numbers" = "Useful Numbers";
+"Map" = "Map";
+"Sorry, you should register to sumbit questionnaires first" = "Sorry, you should register to sumbit questionnaires first";
+"Do you want to register now?" = "Do you want to register now?";
+"Annabelle Beach Resort" = "Annabelle Beach Resort";
+"Success!" = "Success!";
+"Thank you for your feedback." = "Thank you for your feedback.";
+"Google Map" = "Google Map";
+"Apple Map" = "Apple Map";
+"Home Page" = "Home Page";
+"Message" = "Message";
+"Map" = "Map";
+"Weather" = "Weather";
+"Useful tel. numbers" = "Useful tel. numbers";
+"Change Language" = "Change Language";
+"Change Hotel Code" = "Change Hotel Code";
+"Sorry, you should register to get messages from your hotel" = "Sorry, you should register to get messages from your hotel";
+"Do you want to register now?" = "Do you want to register now?";
+"Menu" = "Menu";
+"Hotel & Crete" = "Hotel & Crete";
+"Are you sure you want to change your hotel code?" = "Are you sure you want to change your hotel code?";
+"Yes" = "Yes";
+"No" = "No";
+"Waze" = "Waze";
+"Can't find the app on your phone." = "Can't find the app on your phone.";
+
+"Services" = "Services";
+"Facilities" = "Facilities";
+"Accommodation" = "Accommodation";
+"Social Media" = "Social Media";
+"Questionnaire" = "Questionnaire";
+"Contact Us" = "Contact Us";
+"CRETE" = "CRETE";
+
+"Choose" = "Choose";
+"Excellent" = "Excellent";
+"Very good" = "Very good";
+"Good" = "Good";
+"Average" = "Average";
+"Poor" = "Poor";
+"Maybe" = "Maybe";
+"Done" = "Done";
+"Please tell us your opinion" = "Please tell us your opinion";
+"Overall Rating" = "Overall Rating";
+"Submit" = "Submit";
+
+"About Crete" = "About Crete";
+"Guide To Crete" = "Guide To Crete";
+
+"SightSeeing" = "SightSeeing";
+"Direction" = "Direction";
+
+"Today" = "Today";
+"Monday" = "Monday";
+"Tuesday" = "Tuesday";
+"Wednesday" = "Wednesday";
+"Thursday" = "Thursday";
+"Friday" = "Friday";
+"Saturday" = "Saturday";
+"Sunday" = "Sunday";
+"Rain" = "Rain";
+"Clear" = "Clear";
+
+
+
+
+

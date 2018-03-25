@@ -1,0 +1,1713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		089F70B4C466F6D88B03C598 /* Pods_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A16AE4EC2A931364AB413E6 /* Pods_OneSignalNotificationServiceExtension.framework */; };
+		0A095BB02047440700C173C5 /* GeneralInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A095BAF2047440700C173C5 /* GeneralInfoController.swift */; };
+		0A095BB22047453500C173C5 /* GeneralInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A095BB12047453500C173C5 /* GeneralInfoCell.swift */; };
+		0A095BB42047592B00C173C5 /* generalInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A095BB32047592A00C173C5 /* generalInfo.png */; };
+		0A095BB62047ACFC00C173C5 /* UsefulInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A095BB52047ACFC00C173C5 /* UsefulInfo.swift */; };
+		0A095BB82047C3C800C173C5 /* UsefulNumbersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A095BB72047C3C800C173C5 /* UsefulNumbersController.swift */; };
+		0A095BBA2047C50F00C173C5 /* GeneralNumbersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A095BB92047C50F00C173C5 /* GeneralNumbersCell.swift */; };
+		0A095BBC2047CA8600C173C5 /* UsefulNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A095BBB2047CA8600C173C5 /* UsefulNumbers.swift */; };
+		0A095BC82048964100C173C5 /* HotelMapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A095BC72048964100C173C5 /* HotelMapController.swift */; };
+		0A095BCA20489E3000C173C5 /* MapMenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A095BC920489E3000C173C5 /* MapMenuBar.swift */; };
+		0A095BCC2048A10C00C173C5 /* HotelMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A095BCB2048A10C00C173C5 /* HotelMap.swift */; };
+		0A095BCE2048AF8F00C173C5 /* MapDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A095BCD2048AF8F00C173C5 /* MapDataProvider.swift */; };
+		0A09DEF92038594200EF5FBB /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09DEF82038594200EF5FBB /* RegisterController.swift */; };
+		0A09DEFB2038AB2E00EF5FBB /* CheckDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09DEFA2038AB2E00EF5FBB /* CheckDateView.swift */; };
+		0A09DEFD2039473500EF5FBB /* homeBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A09DEFC2039473500EF5FBB /* homeBackground.jpg */; };
+		0A09DEFF2039B15100EF5FBB /* HotelMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09DEFE2039B15000EF5FBB /* HotelMenuController.swift */; };
+		0A09DF012039B1DB00EF5FBB /* HotelMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09DF002039B1DB00EF5FBB /* HotelMenuCell.swift */; };
+		0A09DF032039B3F700EF5FBB /* HotelMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09DF022039B3F700EF5FBB /* HotelMenu.swift */; };
+		0A09DF052039B47600EF5FBB /* hotelMenu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A09DF042039B47600EF5FBB /* hotelMenu.jpg */; };
+		0A09DF102039B5EF00EF5FBB /* defaultAccomodationBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A09DF072039B5EE00EF5FBB /* defaultAccomodationBackground.jpg */; };
+		0A09DF112039B5EF00EF5FBB /* Untitled-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A09DF082039B5EE00EF5FBB /* Untitled-8.jpg */; };
+		0A09DF122039B5EF00EF5FBB /* defaultServiceBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A09DF092039B5EE00EF5FBB /* defaultServiceBackground.jpg */; };
+		0A09DF132039B5EF00EF5FBB /* Untitled-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A09DF0A2039B5EE00EF5FBB /* Untitled-7.jpg */; };
+		0A09DF142039B5EF00EF5FBB /* Untitled-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A09DF0B2039B5EE00EF5FBB /* Untitled-6.jpg */; };
+		0A09DF152039B5EF00EF5FBB /* aboutCrete.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A09DF0C2039B5EE00EF5FBB /* aboutCrete.jpg */; };
+		0A09DF162039B5EF00EF5FBB /* defaultFacilitiesBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A09DF0D2039B5EF00EF5FBB /* defaultFacilitiesBackground.jpg */; };
+		0A09DF172039B5EF00EF5FBB /* Untitled-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A09DF0E2039B5EF00EF5FBB /* Untitled-9.jpg */; };
+		0A09DF192039BC4B00EF5FBB /* CreteMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09DF182039BC4B00EF5FBB /* CreteMenuController.swift */; };
+		0A09DF1B2039CD5500EF5FBB /* DescriptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09DF1A2039CD5500EF5FBB /* DescriptionController.swift */; };
+		0A09DF1D2039CF5800EF5FBB /* DescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09DF1C2039CF5800EF5FBB /* DescriptionCell.swift */; };
+		0A09DF1F2039EA8600EF5FBB /* Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09DF1E2039EA8600EF5FBB /* Description.swift */; };
+		0A09DF212039F79000EF5FBB /* IntroductionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09DF202039F79000EF5FBB /* IntroductionController.swift */; };
+		0A09DF23203A068C00EF5FBB /* IntroductionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09DF22203A068C00EF5FBB /* IntroductionCell.swift */; };
+		0A09DF25203A074F00EF5FBB /* Introduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09DF24203A074F00EF5FBB /* Introduction.swift */; };
+		0A09DF27203A143F00EF5FBB /* ServicesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09DF26203A143F00EF5FBB /* ServicesController.swift */; };
+		0A09DF29203A159000EF5FBB /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09DF28203A159000EF5FBB /* Service.swift */; };
+		0A09DF2B203A171400EF5FBB /* ServiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09DF2A203A171400EF5FBB /* ServiceCell.swift */; };
+		0A09DF2D203A1FA800EF5FBB /* services2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A09DF2C203A1FA800EF5FBB /* services2.png */; };
+		0A09DF31203A2AC100EF5FBB /* FacilitiesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09DF30203A2AC100EF5FBB /* FacilitiesController.swift */; };
+		0A09DF33203A2F9700EF5FBB /* AccommodationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09DF32203A2F9700EF5FBB /* AccommodationController.swift */; };
+		0A09DF35203A30CE00EF5FBB /* socialBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A09DF34203A30CE00EF5FBB /* socialBackground.jpg */; };
+		0A09DF37203A30EC00EF5FBB /* SocialMediaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09DF36203A30EC00EF5FBB /* SocialMediaController.swift */; };
+		0A09DF39203A37B800EF5FBB /* ContactUsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09DF38203A37B800EF5FBB /* ContactUsController.swift */; };
+		0A09DF3B203A396500EF5FBB /* ContactUsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09DF3A203A396500EF5FBB /* ContactUsCell.swift */; };
+		0A09DF3D203A3C9600EF5FBB /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09DF3C203A3C9600EF5FBB /* Contact.swift */; };
+		0A09DF3F203A561100EF5FBB /* socialMedia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A09DF3E203A561100EF5FBB /* socialMedia.jpg */; };
+		0A09DF41203A564500EF5FBB /* questionnaire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A09DF40203A564500EF5FBB /* questionnaire.jpg */; };
+		0A09DF43203A567F00EF5FBB /* contactUs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A09DF42203A567F00EF5FBB /* contactUs.jpg */; };
+		0A0DF62520352E32009EE949 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF62420352E32009EE949 /* AppDelegate.swift */; };
+		0A0DF62C20352E32009EE949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A0DF62B20352E32009EE949 /* Assets.xcassets */; };
+		0A0DF62F20352E32009EE949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A0DF62D20352E32009EE949 /* LaunchScreen.storyboard */; };
+		0A0DF64720353FEF009EE949 /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF63820353FEF009EE949 /* Extension+UIViewController.swift */; };
+		0A0DF64820353FEF009EE949 /* Extension+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF63920353FEF009EE949 /* Extension+UIImageView.swift */; };
+		0A0DF64920353FEF009EE949 /* Extension+Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF63A20353FEF009EE949 /* Extension+Notification.swift */; };
+		0A0DF64A20353FEF009EE949 /* Extension+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF63B20353FEF009EE949 /* Extension+Dictionary.swift */; };
+		0A0DF64B20353FEF009EE949 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF63C20353FEF009EE949 /* Extension+UIView.swift */; };
+		0A0DF64C20353FEF009EE949 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF63D20353FEF009EE949 /* Extension+String.swift */; };
+		0A0DF64D20353FEF009EE949 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF63E20353FEF009EE949 /* Extension+UIColor.swift */; };
+		0A0DF64E20353FEF009EE949 /* Extension+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF63F20353FEF009EE949 /* Extension+Int.swift */; };
+		0A0DF64F20353FEF009EE949 /* Extension+UILable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF64020353FEF009EE949 /* Extension+UILable.swift */; };
+		0A0DF65020353FEF009EE949 /* Extension+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF64120353FEF009EE949 /* Extension+Codable.swift */; };
+		0A0DF65120353FEF009EE949 /* Extension+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF64220353FEF009EE949 /* Extension+Date.swift */; };
+		0A0DF65220353FEF009EE949 /* Extension+Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF64320353FEF009EE949 /* Extension+Double.swift */; };
+		0A0DF65320353FEF009EE949 /* Extension+UIViewAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF64420353FEF009EE949 /* Extension+UIViewAnchor.swift */; };
+		0A0DF65420353FEF009EE949 /* Extension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF64520353FEF009EE949 /* Extension+UIImage.swift */; };
+		0A0DF65520353FEF009EE949 /* Extension+UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF64620353FEF009EE949 /* Extension+UserDefault.swift */; };
+		0A0DF65C2035401B009EE949 /* AlertMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF6572035401A009EE949 /* AlertMessages.swift */; };
+		0A0DF65D2035401B009EE949 /* GlobalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF6582035401B009EE949 /* GlobalFunctions.swift */; };
+		0A0DF65E2035401B009EE949 /* LocalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF6592035401B009EE949 /* LocalConstants.swift */; };
+		0A0DF65F2035401B009EE949 /* StyleGuideManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF65A2035401B009EE949 /* StyleGuideManager.swift */; };
+		0A0DF6602035401B009EE949 /* AssetName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF65B2035401B009EE949 /* AssetName.swift */; };
+		0A0DF6642035402F009EE949 /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF6622035402F009EE949 /* ReachabilityManager.swift */; };
+		0A0DF6652035402F009EE949 /* Reachibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF6632035402F009EE949 /* Reachibility.swift */; };
+		0A0DF6692035404D009EE949 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF6672035404D009EE949 /* APIService.swift */; };
+		0A0DF66A2035404D009EE949 /* ServerUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF6682035404D009EE949 /* ServerUrls.swift */; };
+		0A0DF67B20354101009EE949 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF67220354100009EE949 /* Alerts.swift */; };
+		0A0DF67C20354101009EE949 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF67320354100009EE949 /* MenuBar.swift */; };
+		0A0DF67D20354101009EE949 /* CommentInputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF67420354100009EE949 /* CommentInputTextView.swift */; };
+		0A0DF67E20354101009EE949 /* CommentInputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF67520354100009EE949 /* CommentInputAccessoryView.swift */; };
+		0A0DF67F20354101009EE949 /* PlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF67620354100009EE949 /* PlaceholderTextView.swift */; };
+		0A0DF68020354101009EE949 /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF67720354100009EE949 /* CustomTextView.swift */; };
+		0A0DF68120354101009EE949 /* TopplessTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF67820354100009EE949 /* TopplessTextField.swift */; };
+		0A0DF68220354101009EE949 /* VKCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF67920354101009EE949 /* VKCheckbox.swift */; };
+		0A0DF68320354101009EE949 /* GMDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF67A20354101009EE949 /* GMDatePicker.swift */; };
+		0A0DF68520354127009EE949 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF68420354127009EE949 /* BaseCollectionViewCell.swift */; };
+		0A0DF6872035412E009EE949 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF6862035412E009EE949 /* BaseTableViewCell.swift */; };
+		0A0DF68B20354161009EE949 /* SideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF68A20354161009EE949 /* SideController.swift */; };
+		0A0DF68D203541B6009EE949 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF68C203541B6009EE949 /* HomeController.swift */; };
+		0A0DF68F2035467C009EE949 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF68E2035467C009EE949 /* LoginController.swift */; };
+		0A0DF692203548AE009EE949 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A0DF691203548AE009EE949 /* logo.png */; };
+		0A0DF69420359CBE009EE949 /* logo 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A0DF69320359CBE009EE949 /* logo 1.png */; };
+		0A0DF69A2035A78B009EE949 /* UIButton+PressAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF6962035A78A009EE949 /* UIButton+PressAnimation.swift */; };
+		0A0DF69B2035A78B009EE949 /* UIButton+MagnificationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF6972035A78A009EE949 /* UIButton+MagnificationAnimation.swift */; };
+		0A0DF69C2035A78B009EE949 /* UIButton+FamAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF6982035A78A009EE949 /* UIButton+FamAnimation.swift */; };
+		0A0DF69D2035A78B009EE949 /* UIButton+SelectionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF6992035A78B009EE949 /* UIButton+SelectionAnimation.swift */; };
+		0A0DF69F2035F3E0009EE949 /* FlagButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DF69E2035F3E0009EE949 /* FlagButtonView.swift */; };
+		0A398583204D7C7500812328 /* guideToCrete.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A398582204D7C7500812328 /* guideToCrete.jpg */; };
+		0A398585204DAC3C00812328 /* ContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A398584204DAC3C00812328 /* ContactController.swift */; };
+		0A398587204E036C00812328 /* FullScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A398586204E036C00812328 /* FullScreenController.swift */; };
+		0A398589204E106A00812328 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A398588204E106A00812328 /* NavigationController.swift */; };
+		0A4A56382067BAC800F91635 /* launchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A4A56372067BAC700F91635 /* launchImage.png */; };
+		0A5CC711205D7E690059A9BC /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5CC710205D7E690059A9BC /* Enums.swift */; };
+		0A5CC713205DF2060059A9BC /* HotelIntroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5CC712205DF2060059A9BC /* HotelIntroController.swift */; };
+		0A5CC715205DF39A0059A9BC /* HotelIntroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5CC714205DF39A0059A9BC /* HotelIntroCell.swift */; };
+		0A7393B52048F2D200A0DE8D /* ButtonTitles.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A7393B72048F2D200A0DE8D /* ButtonTitles.strings */; };
+		0A7393BF2048F41C00A0DE8D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A7393C12048F41C00A0DE8D /* Localizable.strings */; };
+		0A76FCBE2049DAE9001C18F6 /* GuideCreteVillageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A76FCBD2049DAE9001C18F6 /* GuideCreteVillageController.swift */; };
+		0A76FCC02049EEED001C18F6 /* GeneralMapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A76FCBF2049EEED001C18F6 /* GeneralMapController.swift */; };
+		0A76FCEA204A46D0001C18F6 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A76FCE9204A46D0001C18F6 /* LocationManager.swift */; };
+		0A76FCEF204A57A1001C18F6 /* CMMapLauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A76FCED204A57A1001C18F6 /* CMMapLauncher.m */; };
+		0A8BB1272045D78E00D8A4AF /* NALLabelsMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BB1262045D78E00D8A4AF /* NALLabelsMatrix.swift */; };
+		0A8BB1292045D7E400D8A4AF /* GreekWordsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BB1282045D7E400D8A4AF /* GreekWordsController.swift */; };
+		0A8BB12B2045DE3B00D8A4AF /* GreekWordHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BB12A2045DE3B00D8A4AF /* GreekWordHeader.swift */; };
+		0A8BB12D2045DFAC00D8A4AF /* GreekWordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BB12C2045DFAC00D8A4AF /* GreekWordCell.swift */; };
+		0A8BB12F2045E3AB00D8A4AF /* GreekWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BB12E2045E3AB00D8A4AF /* GreekWord.swift */; };
+		0A8F17A32041E0C7002B4C36 /* CreteExtraDetailGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F17A22041E0C7002B4C36 /* CreteExtraDetailGuideController.swift */; };
+		0A8F17A52041E203002B4C36 /* CreteExtraDetailGuideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F17A42041E203002B4C36 /* CreteExtraDetailGuideCell.swift */; };
+		0A8F17A720423BDE002B4C36 /* AboutCreteMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F17A620423BDE002B4C36 /* AboutCreteMenuController.swift */; };
+		0A8F17A920423CA7002B4C36 /* AboutCreteMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F17A820423CA7002B4C36 /* AboutCreteMenuCell.swift */; };
+		0A8F17AB204241DA002B4C36 /* AboutCreteDescriptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F17AA204241DA002B4C36 /* AboutCreteDescriptionController.swift */; };
+		0A8F17AD20424928002B4C36 /* AboutCreteDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F17AC20424928002B4C36 /* AboutCreteDetailController.swift */; };
+		0A8F17AF204249A1002B4C36 /* AboutCreteDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F17AE204249A1002B4C36 /* AboutCreteDetailCell.swift */; };
+		0A8F17B1204255A0002B4C36 /* AboutCreteDetailDescriptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F17B0204255A0002B4C36 /* AboutCreteDetailDescriptionController.swift */; };
+		0A8F17B320425A47002B4C36 /* AboutCreteGastronomyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F17B220425A47002B4C36 /* AboutCreteGastronomyController.swift */; };
+		0A8F17B520425B1B002B4C36 /* AboutCreteGastronomyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F17B420425B1B002B4C36 /* AboutCreteGastronomyCell.swift */; };
+		0A8F17B720425C86002B4C36 /* AboutCreteGastronomyDescriptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F17B620425C86002B4C36 /* AboutCreteGastronomyDescriptionController.swift */; };
+		0A8F17BB20426DE5002B4C36 /* GuideCreteMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F17BA20426DE5002B4C36 /* GuideCreteMenuController.swift */; };
+		0A8F17BD20426E42002B4C36 /* GuideCreteMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F17BC20426E42002B4C36 /* GuideCreteMenuCell.swift */; };
+		0A8F17BF204275DC002B4C36 /* GuideCreteListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F17BE204275DC002B4C36 /* GuideCreteListController.swift */; };
+		0A8F17C12042762D002B4C36 /* GuideCreteListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F17C02042762D002B4C36 /* GuideCreteListCell.swift */; };
+		0A8F17D6204323FC002B4C36 /* GuideCreteDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F17D5204323FC002B4C36 /* GuideCreteDataController.swift */; };
+		0A8F17D8204324E1002B4C36 /* GuideCreteDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F17D7204324E1002B4C36 /* GuideCreteDataCell.swift */; };
+		0A8F17DA20432F28002B4C36 /* GuideCreteDataGeneralController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F17D920432F28002B4C36 /* GuideCreteDataGeneralController.swift */; };
+		0A8F17DC20433009002B4C36 /* GuideCreteDataGeneralCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F17DB20433009002B4C36 /* GuideCreteDataGeneralCell.swift */; };
+		0A8F17DE2043A7E7002B4C36 /* GuideCreteGeneralController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F17DD2043A7E7002B4C36 /* GuideCreteGeneralController.swift */; };
+		0A8F17E02043A867002B4C36 /* east.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A8F17DF2043A867002B4C36 /* east.png */; };
+		0A8F17E42043AB3A002B4C36 /* west.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A8F17E32043AB39002B4C36 /* west.png */; };
+		0A8F17E62043AE89002B4C36 /* QuestionnaireController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F17E52043AE89002B4C36 /* QuestionnaireController.swift */; };
+		0A8F17E82043AEEF002B4C36 /* QuestionnaireCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F17E72043AEEF002B4C36 /* QuestionnaireCell.swift */; };
+		0A8F17F72043B52D002B4C36 /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F17EF2043B52A002B4C36 /* ImagePickerViewController.swift */; };
+		0A8F17F82043B52D002B4C36 /* TwoTextFieldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F17F02043B52A002B4C36 /* TwoTextFieldsViewController.swift */; };
+		0A8F17F92043B52D002B4C36 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F17F12043B52A002B4C36 /* DatePickerViewController.swift */; };
+		0A8F17FA2043B52D002B4C36 /* Countries.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0A8F17F22043B52B002B4C36 /* Countries.bundle */; };
+		0A8F17FB2043B52D002B4C36 /* PickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F17F32043B52C002B4C36 /* PickerViewViewController.swift */; };
+		0A8F17FC2043B52D002B4C36 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F17F42043B52C002B4C36 /* ColorPickerViewController.swift */; };
+		0A8F17FD2043B52D002B4C36 /* OneTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F17F52043B52C002B4C36 /* OneTextFieldViewController.swift */; };
+		0A8F17FE2043B52D002B4C36 /* LocalePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F17F62043B52C002B4C36 /* LocalePickerViewController.swift */; };
+		0A8F180C2043B537002B4C36 /* UISegmentedControl+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F17FF2043B534002B4C36 /* UISegmentedControl+Extensions.swift */; };
+		0A8F180D2043B537002B4C36 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F18002043B534002B4C36 /* String+Extensions.swift */; };
+		0A8F180E2043B537002B4C36 /* UITextView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F18012043B535002B4C36 /* UITextView+Extensions.swift */; };
+		0A8F180F2043B537002B4C36 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F18022043B535002B4C36 /* UITextField+Extensions.swift */; };
+		0A8F18102043B537002B4C36 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F18032043B535002B4C36 /* Array+Extensions.swift */; };
+		0A8F18112043B537002B4C36 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F18042043B536002B4C36 /* UIColor+Extensions.swift */; };
+		0A8F18122043B537002B4C36 /* Optional+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F18052043B536002B4C36 /* Optional+Extensions.swift */; };
+		0A8F18132043B537002B4C36 /* UIAlertController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F18062043B536002B4C36 /* UIAlertController+Extensions.swift */; };
+		0A8F18142043B537002B4C36 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F18072043B536002B4C36 /* UIView+Extensions.swift */; };
+		0A8F18152043B537002B4C36 /* Common+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F18082043B536002B4C36 /* Common+Extensions.swift */; };
+		0A8F18162043B537002B4C36 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F18092043B537002B4C36 /* Date+Extension.swift */; };
+		0A8F18172043B537002B4C36 /* Locale+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F180A2043B537002B4C36 /* Locale+Extensions.swift */; };
+		0A8F18182043B537002B4C36 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F180B2043B537002B4C36 /* UIImage+Extensions.swift */; };
+		0A8F181D2043B53E002B4C36 /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F18192043B53E002B4C36 /* SegmentedControl.swift */; };
+		0A8F181E2043B53E002B4C36 /* GradientSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F181A2043B53E002B4C36 /* GradientSlider.swift */; };
+		0A8F181F2043B53E002B4C36 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F181B2043B53E002B4C36 /* TextField.swift */; };
+		0A8F18202043B53E002B4C36 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F181C2043B53E002B4C36 /* Label.swift */; };
+		0A8F18222043D861002B4C36 /* QuestionnaireRatingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F18212043D861002B4C36 /* QuestionnaireRatingCell.swift */; };
+		0A8F1824204421B5002B4C36 /* GeneralRegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F1823204421B5002B4C36 /* GeneralRegisterController.swift */; };
+		0A8F182620442DA1002B4C36 /* GuideCreteSightSeeingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F182520442DA1002B4C36 /* GuideCreteSightSeeingController.swift */; };
+		0A8F182820442E1A002B4C36 /* GuideCreteSightSeeingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F182720442E1A002B4C36 /* GuideCreteSightSeeingCell.swift */; };
+		0A8F182A20446228002B4C36 /* GuideCreteSightSeeingDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F182920446228002B4C36 /* GuideCreteSightSeeingDetailController.swift */; };
+		0A8F182C204462AF002B4C36 /* GuideCreteSightSeeingDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F182B204462AF002B4C36 /* GuideCreteSightSeeingDetailCell.swift */; };
+		0A8F182E20446611002B4C36 /* GuideCreteSightSeeingDetailDirectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F182D20446611002B4C36 /* GuideCreteSightSeeingDetailDirectionController.swift */; };
+		0A8F183020446692002B4C36 /* GuideCreteSightSeeingDetailDirectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F182F20446692002B4C36 /* GuideCreteSightSeeingDetailDirectionCell.swift */; };
+		0A8F183220447762002B4C36 /* GuideCreteDataGeneralDirectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F183120447762002B4C36 /* GuideCreteDataGeneralDirectionController.swift */; };
+		0A8F1834204477C0002B4C36 /* GuideCreteDataGeneralDirectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F1833204477C0002B4C36 /* GuideCreteDataGeneralDirectionCell.swift */; };
+		0A8F183620448E0E002B4C36 /* GuideCreteDataAreaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F183520448E0E002B4C36 /* GuideCreteDataAreaController.swift */; };
+		0A8F183820448ED1002B4C36 /* GuideCreteDataAreaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F183720448ED1002B4C36 /* GuideCreteDataAreaCell.swift */; };
+		0A8F183A204494A2002B4C36 /* GuideCreteDataAreaListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F1839204494A2002B4C36 /* GuideCreteDataAreaListController.swift */; };
+		0A8F183C2044952D002B4C36 /* GuideCreteDataAreaListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F183B2044952D002B4C36 /* GuideCreteDataAreaListCell.swift */; };
+		0A8F183E20449918002B4C36 /* GuideCreteDataAreaDirectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F183D20449918002B4C36 /* GuideCreteDataAreaDirectionController.swift */; };
+		0A8F18402044998D002B4C36 /* GuideCreteDataAreaDirectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F183F2044998D002B4C36 /* GuideCreteDataAreaDirectionCell.swift */; };
+		0A8F184220449F6B002B4C36 /* GuideCreteDataTopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F184120449F6B002B4C36 /* GuideCreteDataTopController.swift */; };
+		0A8F18452044A42B002B4C36 /* MessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F18442044A42B002B4C36 /* MessagesController.swift */; };
+		0A8F18472044A511002B4C36 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F18462044A511002B4C36 /* MessageCell.swift */; };
+		0A8F18492044B20B002B4C36 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F18482044B20B002B4C36 /* Message.swift */; };
+		0A8F184B20459475002B4C36 /* WeatherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F184A20459475002B4C36 /* WeatherController.swift */; };
+		0A8F184D2045959A002B4C36 /* WeatherHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F184C2045959A002B4C36 /* WeatherHeaderCell.swift */; };
+		0A8F184F204595D4002B4C36 /* weatherBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A8F184E204595D4002B4C36 /* weatherBackground.jpg */; };
+		0A8F18512045973D002B4C36 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F18502045973D002B4C36 /* WeatherCell.swift */; };
+		0A8F185320459A1E002B4C36 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F185220459A1E002B4C36 /* Weather.swift */; };
+		0AA07CB52040569800186727 /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA07CB42040569800186727 /* Hotel.swift */; };
+		0AA07CB72040740000186727 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA07CB62040740000186727 /* WebService.swift */; };
+		0AA07CBF2040AA2700186727 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA07CBE2040AA2700186727 /* NotificationService.swift */; };
+		0AA07CC32040AA2700186727 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0AA07CBC2040AA2600186727 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0AA07CCA20414C2900186727 /* SocialMediaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA07CC920414C2900186727 /* SocialMediaCell.swift */; };
+		0AA07CCC20414CE100186727 /* SocialMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA07CCB20414CE100186727 /* SocialMedia.swift */; };
+		0AA07CCE20415C9E00186727 /* AccommodationDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA07CCD20415C9E00186727 /* AccommodationDetailController.swift */; };
+		0AA07CD020415E4400186727 /* AccommodationDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA07CCF20415E4400186727 /* AccommodationDetailCell.swift */; };
+		0AA07CD32041655600186727 /* FacilitieDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA07CD22041655600186727 /* FacilitieDetailController.swift */; };
+		0AA07CD52041660E00186727 /* FacilitieDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA07CD42041660E00186727 /* FacilitieDetailCell.swift */; };
+		0AA07CD8204195EE00186727 /* Crete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA07CD7204195EE00186727 /* Crete.swift */; };
+		0AA07CDA2041A1ED00186727 /* CreteMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA07CD92041A1ED00186727 /* CreteMenuCell.swift */; };
+		0AA07CDE2041C41300186727 /* CreteExtraDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA07CDD2041C41300186727 /* CreteExtraDetailCell.swift */; };
+		0AA07CE02041C45300186727 /* CreteExtraDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA07CDF2041C45200186727 /* CreteExtraDetailController.swift */; };
+		0ADEF06B2062D13D009A7825 /* GuideCreteGeneralCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADEF06A2062D13D009A7825 /* GuideCreteGeneralCell.swift */; };
+		0ADEF06D2062E407009A7825 /* Extension+NSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADEF06C2062E407009A7825 /* Extension+NSAttributedString.swift */; };
+		B02E4ECCFDA7E00272E9D7F9 /* Pods_HotelCrete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F4D1C4E54D81D12845BF42 /* Pods_HotelCrete.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AA07CC12040AA2700186727 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A0DF61920352E32009EE949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AA07CBB2040AA2600186727;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0AA07CC72040AA2700186727 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0AA07CC32040AA2700186727 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A095BAF2047440700C173C5 /* GeneralInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralInfoController.swift; sourceTree = "<group>"; };
+		0A095BB12047453500C173C5 /* GeneralInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralInfoCell.swift; sourceTree = "<group>"; };
+		0A095BB32047592A00C173C5 /* generalInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = generalInfo.png; sourceTree = "<group>"; };
+		0A095BB52047ACFC00C173C5 /* UsefulInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsefulInfo.swift; sourceTree = "<group>"; };
+		0A095BB72047C3C800C173C5 /* UsefulNumbersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsefulNumbersController.swift; sourceTree = "<group>"; };
+		0A095BB92047C50F00C173C5 /* GeneralNumbersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralNumbersCell.swift; sourceTree = "<group>"; };
+		0A095BBB2047CA8600C173C5 /* UsefulNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsefulNumbers.swift; sourceTree = "<group>"; };
+		0A095BC72048964100C173C5 /* HotelMapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelMapController.swift; sourceTree = "<group>"; };
+		0A095BC920489E3000C173C5 /* MapMenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapMenuBar.swift; sourceTree = "<group>"; };
+		0A095BCB2048A10C00C173C5 /* HotelMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelMap.swift; sourceTree = "<group>"; };
+		0A095BCD2048AF8F00C173C5 /* MapDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDataProvider.swift; sourceTree = "<group>"; };
+		0A09DEF82038594200EF5FBB /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		0A09DEFA2038AB2E00EF5FBB /* CheckDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckDateView.swift; sourceTree = "<group>"; };
+		0A09DEFC2039473500EF5FBB /* homeBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homeBackground.jpg; sourceTree = "<group>"; };
+		0A09DEFE2039B15000EF5FBB /* HotelMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelMenuController.swift; sourceTree = "<group>"; };
+		0A09DF002039B1DB00EF5FBB /* HotelMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelMenuCell.swift; sourceTree = "<group>"; };
+		0A09DF022039B3F700EF5FBB /* HotelMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelMenu.swift; sourceTree = "<group>"; };
+		0A09DF042039B47600EF5FBB /* hotelMenu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hotelMenu.jpg; sourceTree = "<group>"; };
+		0A09DF072039B5EE00EF5FBB /* defaultAccomodationBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = defaultAccomodationBackground.jpg; sourceTree = "<group>"; };
+		0A09DF082039B5EE00EF5FBB /* Untitled-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Untitled-8.jpg"; sourceTree = "<group>"; };
+		0A09DF092039B5EE00EF5FBB /* defaultServiceBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = defaultServiceBackground.jpg; sourceTree = "<group>"; };
+		0A09DF0A2039B5EE00EF5FBB /* Untitled-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Untitled-7.jpg"; sourceTree = "<group>"; };
+		0A09DF0B2039B5EE00EF5FBB /* Untitled-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Untitled-6.jpg"; sourceTree = "<group>"; };
+		0A09DF0C2039B5EE00EF5FBB /* aboutCrete.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aboutCrete.jpg; sourceTree = "<group>"; };
+		0A09DF0D2039B5EF00EF5FBB /* defaultFacilitiesBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = defaultFacilitiesBackground.jpg; sourceTree = "<group>"; };
+		0A09DF0E2039B5EF00EF5FBB /* Untitled-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Untitled-9.jpg"; sourceTree = "<group>"; };
+		0A09DF182039BC4B00EF5FBB /* CreteMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreteMenuController.swift; sourceTree = "<group>"; };
+		0A09DF1A2039CD5500EF5FBB /* DescriptionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionController.swift; sourceTree = "<group>"; };
+		0A09DF1C2039CF5800EF5FBB /* DescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionCell.swift; sourceTree = "<group>"; };
+		0A09DF1E2039EA8600EF5FBB /* Description.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Description.swift; sourceTree = "<group>"; };
+		0A09DF202039F79000EF5FBB /* IntroductionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionController.swift; sourceTree = "<group>"; };
+		0A09DF22203A068C00EF5FBB /* IntroductionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionCell.swift; sourceTree = "<group>"; };
+		0A09DF24203A074F00EF5FBB /* Introduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Introduction.swift; sourceTree = "<group>"; };
+		0A09DF26203A143F00EF5FBB /* ServicesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesController.swift; sourceTree = "<group>"; };
+		0A09DF28203A159000EF5FBB /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		0A09DF2A203A171400EF5FBB /* ServiceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCell.swift; sourceTree = "<group>"; };
+		0A09DF2C203A1FA800EF5FBB /* services2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = services2.png; sourceTree = "<group>"; };
+		0A09DF30203A2AC100EF5FBB /* FacilitiesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilitiesController.swift; sourceTree = "<group>"; };
+		0A09DF32203A2F9700EF5FBB /* AccommodationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccommodationController.swift; sourceTree = "<group>"; };
+		0A09DF34203A30CE00EF5FBB /* socialBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = socialBackground.jpg; sourceTree = "<group>"; };
+		0A09DF36203A30EC00EF5FBB /* SocialMediaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaController.swift; sourceTree = "<group>"; };
+		0A09DF38203A37B800EF5FBB /* ContactUsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsController.swift; sourceTree = "<group>"; };
+		0A09DF3A203A396500EF5FBB /* ContactUsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsCell.swift; sourceTree = "<group>"; };
+		0A09DF3C203A3C9600EF5FBB /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		0A09DF3E203A561100EF5FBB /* socialMedia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = socialMedia.jpg; sourceTree = "<group>"; };
+		0A09DF40203A564500EF5FBB /* questionnaire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = questionnaire.jpg; sourceTree = "<group>"; };
+		0A09DF42203A567F00EF5FBB /* contactUs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = contactUs.jpg; sourceTree = "<group>"; };
+		0A0DF62120352E32009EE949 /* HotelCrete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotelCrete.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A0DF62420352E32009EE949 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A0DF62B20352E32009EE949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A0DF63020352E32009EE949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A0DF63820353FEF009EE949 /* Extension+UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIViewController.swift"; sourceTree = "<group>"; };
+		0A0DF63920353FEF009EE949 /* Extension+UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIImageView.swift"; sourceTree = "<group>"; };
+		0A0DF63A20353FEF009EE949 /* Extension+Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+Notification.swift"; sourceTree = "<group>"; };
+		0A0DF63B20353FEF009EE949 /* Extension+Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+Dictionary.swift"; sourceTree = "<group>"; };
+		0A0DF63C20353FEF009EE949 /* Extension+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
+		0A0DF63D20353FEF009EE949 /* Extension+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
+		0A0DF63E20353FEF009EE949 /* Extension+UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
+		0A0DF63F20353FEF009EE949 /* Extension+Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+Int.swift"; sourceTree = "<group>"; };
+		0A0DF64020353FEF009EE949 /* Extension+UILable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UILable.swift"; sourceTree = "<group>"; };
+		0A0DF64120353FEF009EE949 /* Extension+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+Codable.swift"; sourceTree = "<group>"; };
+		0A0DF64220353FEF009EE949 /* Extension+Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+Date.swift"; sourceTree = "<group>"; };
+		0A0DF64320353FEF009EE949 /* Extension+Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+Double.swift"; sourceTree = "<group>"; };
+		0A0DF64420353FEF009EE949 /* Extension+UIViewAnchor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIViewAnchor.swift"; sourceTree = "<group>"; };
+		0A0DF64520353FEF009EE949 /* Extension+UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIImage.swift"; sourceTree = "<group>"; };
+		0A0DF64620353FEF009EE949 /* Extension+UserDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UserDefault.swift"; sourceTree = "<group>"; };
+		0A0DF6572035401A009EE949 /* AlertMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertMessages.swift; sourceTree = "<group>"; };
+		0A0DF6582035401B009EE949 /* GlobalFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalFunctions.swift; sourceTree = "<group>"; };
+		0A0DF6592035401B009EE949 /* LocalConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalConstants.swift; sourceTree = "<group>"; };
+		0A0DF65A2035401B009EE949 /* StyleGuideManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleGuideManager.swift; sourceTree = "<group>"; };
+		0A0DF65B2035401B009EE949 /* AssetName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetName.swift; sourceTree = "<group>"; };
+		0A0DF6622035402F009EE949 /* ReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
+		0A0DF6632035402F009EE949 /* Reachibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachibility.swift; sourceTree = "<group>"; };
+		0A0DF6672035404D009EE949 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		0A0DF6682035404D009EE949 /* ServerUrls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerUrls.swift; sourceTree = "<group>"; };
+		0A0DF67220354100009EE949 /* Alerts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		0A0DF67320354100009EE949 /* MenuBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		0A0DF67420354100009EE949 /* CommentInputTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentInputTextView.swift; sourceTree = "<group>"; };
+		0A0DF67520354100009EE949 /* CommentInputAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentInputAccessoryView.swift; sourceTree = "<group>"; };
+		0A0DF67620354100009EE949 /* PlaceholderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderTextView.swift; sourceTree = "<group>"; };
+		0A0DF67720354100009EE949 /* CustomTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
+		0A0DF67820354100009EE949 /* TopplessTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopplessTextField.swift; sourceTree = "<group>"; };
+		0A0DF67920354101009EE949 /* VKCheckbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKCheckbox.swift; sourceTree = "<group>"; };
+		0A0DF67A20354101009EE949 /* GMDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMDatePicker.swift; sourceTree = "<group>"; };
+		0A0DF68420354127009EE949 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		0A0DF6862035412E009EE949 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		0A0DF68A20354161009EE949 /* SideController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideController.swift; sourceTree = "<group>"; };
+		0A0DF68C203541B6009EE949 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		0A0DF68E2035467C009EE949 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		0A0DF691203548AE009EE949 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		0A0DF69320359CBE009EE949 /* logo 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo 1.png"; sourceTree = "<group>"; };
+		0A0DF6962035A78A009EE949 /* UIButton+PressAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+PressAnimation.swift"; sourceTree = "<group>"; };
+		0A0DF6972035A78A009EE949 /* UIButton+MagnificationAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+MagnificationAnimation.swift"; sourceTree = "<group>"; };
+		0A0DF6982035A78A009EE949 /* UIButton+FamAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+FamAnimation.swift"; sourceTree = "<group>"; };
+		0A0DF6992035A78B009EE949 /* UIButton+SelectionAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+SelectionAnimation.swift"; sourceTree = "<group>"; };
+		0A0DF69E2035F3E0009EE949 /* FlagButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagButtonView.swift; sourceTree = "<group>"; };
+		0A398582204D7C7500812328 /* guideToCrete.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guideToCrete.jpg; sourceTree = "<group>"; };
+		0A398584204DAC3C00812328 /* ContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactController.swift; sourceTree = "<group>"; };
+		0A398586204E036C00812328 /* FullScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenController.swift; sourceTree = "<group>"; };
+		0A398588204E106A00812328 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		0A4A56342067B42F00F91635 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A4A56372067BAC700F91635 /* launchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImage.png; sourceTree = "<group>"; };
+		0A5CC710205D7E690059A9BC /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		0A5CC712205DF2060059A9BC /* HotelIntroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelIntroController.swift; sourceTree = "<group>"; };
+		0A5CC714205DF39A0059A9BC /* HotelIntroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelIntroCell.swift; sourceTree = "<group>"; };
+		0A7393B62048F2D200A0DE8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ButtonTitles.strings; sourceTree = "<group>"; };
+		0A7393C02048F41C00A0DE8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0A7393C32048F42B00A0DE8D /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/ButtonTitles.strings; sourceTree = "<group>"; };
+		0A7393C42048F42B00A0DE8D /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0A7393C52048F43300A0DE8D /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/ButtonTitles.strings; sourceTree = "<group>"; };
+		0A7393C62048F43300A0DE8D /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0A7393C92048F43900A0DE8D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/ButtonTitles.strings; sourceTree = "<group>"; };
+		0A7393CA2048F43900A0DE8D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0A7393CC2048F44B00A0DE8D /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/ButtonTitles.strings; sourceTree = "<group>"; };
+		0A7393CD2048F44B00A0DE8D /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0A76FCB320492410001C18F6 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = fr; path = fr.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A76FCB420492410001C18F6 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = de; path = de.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A76FCB520492410001C18F6 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ru; path = ru.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A76FCB620492410001C18F6 /* it */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = it; path = it.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A76FCBD2049DAE9001C18F6 /* GuideCreteVillageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCreteVillageController.swift; sourceTree = "<group>"; };
+		0A76FCBF2049EEED001C18F6 /* GeneralMapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralMapController.swift; sourceTree = "<group>"; };
+		0A76FCE9204A46D0001C18F6 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		0A76FCEC204A579F001C18F6 /* HotelCrete-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HotelCrete-Bridging-Header.h"; sourceTree = "<group>"; };
+		0A76FCED204A57A1001C18F6 /* CMMapLauncher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMapLauncher.m; sourceTree = "<group>"; };
+		0A76FCEE204A57A1001C18F6 /* CMMapLauncher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMapLauncher.h; sourceTree = "<group>"; };
+		0A8BB1262045D78E00D8A4AF /* NALLabelsMatrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NALLabelsMatrix.swift; sourceTree = "<group>"; };
+		0A8BB1282045D7E400D8A4AF /* GreekWordsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekWordsController.swift; sourceTree = "<group>"; };
+		0A8BB12A2045DE3B00D8A4AF /* GreekWordHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekWordHeader.swift; sourceTree = "<group>"; };
+		0A8BB12C2045DFAC00D8A4AF /* GreekWordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekWordCell.swift; sourceTree = "<group>"; };
+		0A8BB12E2045E3AB00D8A4AF /* GreekWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekWord.swift; sourceTree = "<group>"; };
+		0A8F17A22041E0C7002B4C36 /* CreteExtraDetailGuideController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreteExtraDetailGuideController.swift; sourceTree = "<group>"; };
+		0A8F17A42041E203002B4C36 /* CreteExtraDetailGuideCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreteExtraDetailGuideCell.swift; sourceTree = "<group>"; };
+		0A8F17A620423BDE002B4C36 /* AboutCreteMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCreteMenuController.swift; sourceTree = "<group>"; };
+		0A8F17A820423CA7002B4C36 /* AboutCreteMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCreteMenuCell.swift; sourceTree = "<group>"; };
+		0A8F17AA204241DA002B4C36 /* AboutCreteDescriptionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCreteDescriptionController.swift; sourceTree = "<group>"; };
+		0A8F17AC20424928002B4C36 /* AboutCreteDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCreteDetailController.swift; sourceTree = "<group>"; };
+		0A8F17AE204249A1002B4C36 /* AboutCreteDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCreteDetailCell.swift; sourceTree = "<group>"; };
+		0A8F17B0204255A0002B4C36 /* AboutCreteDetailDescriptionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCreteDetailDescriptionController.swift; sourceTree = "<group>"; };
+		0A8F17B220425A47002B4C36 /* AboutCreteGastronomyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCreteGastronomyController.swift; sourceTree = "<group>"; };
+		0A8F17B420425B1B002B4C36 /* AboutCreteGastronomyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCreteGastronomyCell.swift; sourceTree = "<group>"; };
+		0A8F17B620425C86002B4C36 /* AboutCreteGastronomyDescriptionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCreteGastronomyDescriptionController.swift; sourceTree = "<group>"; };
+		0A8F17BA20426DE5002B4C36 /* GuideCreteMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCreteMenuController.swift; sourceTree = "<group>"; };
+		0A8F17BC20426E42002B4C36 /* GuideCreteMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCreteMenuCell.swift; sourceTree = "<group>"; };
+		0A8F17BE204275DC002B4C36 /* GuideCreteListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCreteListController.swift; sourceTree = "<group>"; };
+		0A8F17C02042762D002B4C36 /* GuideCreteListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCreteListCell.swift; sourceTree = "<group>"; };
+		0A8F17D5204323FC002B4C36 /* GuideCreteDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCreteDataController.swift; sourceTree = "<group>"; };
+		0A8F17D7204324E1002B4C36 /* GuideCreteDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCreteDataCell.swift; sourceTree = "<group>"; };
+		0A8F17D920432F28002B4C36 /* GuideCreteDataGeneralController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCreteDataGeneralController.swift; sourceTree = "<group>"; };
+		0A8F17DB20433009002B4C36 /* GuideCreteDataGeneralCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCreteDataGeneralCell.swift; sourceTree = "<group>"; };
+		0A8F17DD2043A7E7002B4C36 /* GuideCreteGeneralController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCreteGeneralController.swift; sourceTree = "<group>"; };
+		0A8F17DF2043A867002B4C36 /* east.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = east.png; sourceTree = "<group>"; };
+		0A8F17E32043AB39002B4C36 /* west.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = west.png; sourceTree = "<group>"; };
+		0A8F17E52043AE89002B4C36 /* QuestionnaireController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireController.swift; sourceTree = "<group>"; };
+		0A8F17E72043AEEF002B4C36 /* QuestionnaireCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireCell.swift; sourceTree = "<group>"; };
+		0A8F17EF2043B52A002B4C36 /* ImagePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
+		0A8F17F02043B52A002B4C36 /* TwoTextFieldsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoTextFieldsViewController.swift; sourceTree = "<group>"; };
+		0A8F17F12043B52A002B4C36 /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		0A8F17F22043B52B002B4C36 /* Countries.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Countries.bundle; sourceTree = "<group>"; };
+		0A8F17F32043B52C002B4C36 /* PickerViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewViewController.swift; sourceTree = "<group>"; };
+		0A8F17F42043B52C002B4C36 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
+		0A8F17F52043B52C002B4C36 /* OneTextFieldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneTextFieldViewController.swift; sourceTree = "<group>"; };
+		0A8F17F62043B52C002B4C36 /* LocalePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalePickerViewController.swift; sourceTree = "<group>"; };
+		0A8F17FF2043B534002B4C36 /* UISegmentedControl+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Extensions.swift"; sourceTree = "<group>"; };
+		0A8F18002043B534002B4C36 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		0A8F18012043B535002B4C36 /* UITextView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Extensions.swift"; sourceTree = "<group>"; };
+		0A8F18022043B535002B4C36 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		0A8F18032043B535002B4C36 /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		0A8F18042043B536002B4C36 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		0A8F18052043B536002B4C36 /* Optional+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Optional+Extensions.swift"; sourceTree = "<group>"; };
+		0A8F18062043B536002B4C36 /* UIAlertController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extensions.swift"; sourceTree = "<group>"; };
+		0A8F18072043B536002B4C36 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		0A8F18082043B536002B4C36 /* Common+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Common+Extensions.swift"; sourceTree = "<group>"; };
+		0A8F18092043B537002B4C36 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		0A8F180A2043B537002B4C36 /* Locale+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Locale+Extensions.swift"; sourceTree = "<group>"; };
+		0A8F180B2043B537002B4C36 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		0A8F18192043B53E002B4C36 /* SegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
+		0A8F181A2043B53E002B4C36 /* GradientSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientSlider.swift; sourceTree = "<group>"; };
+		0A8F181B2043B53E002B4C36 /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		0A8F181C2043B53E002B4C36 /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		0A8F18212043D861002B4C36 /* QuestionnaireRatingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireRatingCell.swift; sourceTree = "<group>"; };
+		0A8F1823204421B5002B4C36 /* GeneralRegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralRegisterController.swift; sourceTree = "<group>"; };
+		0A8F182520442DA1002B4C36 /* GuideCreteSightSeeingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCreteSightSeeingController.swift; sourceTree = "<group>"; };
+		0A8F182720442E1A002B4C36 /* GuideCreteSightSeeingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCreteSightSeeingCell.swift; sourceTree = "<group>"; };
+		0A8F182920446228002B4C36 /* GuideCreteSightSeeingDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCreteSightSeeingDetailController.swift; sourceTree = "<group>"; };
+		0A8F182B204462AF002B4C36 /* GuideCreteSightSeeingDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCreteSightSeeingDetailCell.swift; sourceTree = "<group>"; };
+		0A8F182D20446611002B4C36 /* GuideCreteSightSeeingDetailDirectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCreteSightSeeingDetailDirectionController.swift; sourceTree = "<group>"; };
+		0A8F182F20446692002B4C36 /* GuideCreteSightSeeingDetailDirectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCreteSightSeeingDetailDirectionCell.swift; sourceTree = "<group>"; };
+		0A8F183120447762002B4C36 /* GuideCreteDataGeneralDirectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCreteDataGeneralDirectionController.swift; sourceTree = "<group>"; };
+		0A8F1833204477C0002B4C36 /* GuideCreteDataGeneralDirectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCreteDataGeneralDirectionCell.swift; sourceTree = "<group>"; };
+		0A8F183520448E0E002B4C36 /* GuideCreteDataAreaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCreteDataAreaController.swift; sourceTree = "<group>"; };
+		0A8F183720448ED1002B4C36 /* GuideCreteDataAreaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCreteDataAreaCell.swift; sourceTree = "<group>"; };
+		0A8F1839204494A2002B4C36 /* GuideCreteDataAreaListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCreteDataAreaListController.swift; sourceTree = "<group>"; };
+		0A8F183B2044952D002B4C36 /* GuideCreteDataAreaListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCreteDataAreaListCell.swift; sourceTree = "<group>"; };
+		0A8F183D20449918002B4C36 /* GuideCreteDataAreaDirectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCreteDataAreaDirectionController.swift; sourceTree = "<group>"; };
+		0A8F183F2044998D002B4C36 /* GuideCreteDataAreaDirectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCreteDataAreaDirectionCell.swift; sourceTree = "<group>"; };
+		0A8F184120449F6B002B4C36 /* GuideCreteDataTopController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCreteDataTopController.swift; sourceTree = "<group>"; };
+		0A8F18442044A42B002B4C36 /* MessagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesController.swift; sourceTree = "<group>"; };
+		0A8F18462044A511002B4C36 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		0A8F18482044B20B002B4C36 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		0A8F184A20459475002B4C36 /* WeatherController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherController.swift; sourceTree = "<group>"; };
+		0A8F184C2045959A002B4C36 /* WeatherHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherHeaderCell.swift; sourceTree = "<group>"; };
+		0A8F184E204595D4002B4C36 /* weatherBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = weatherBackground.jpg; sourceTree = "<group>"; };
+		0A8F18502045973D002B4C36 /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		0A8F185220459A1E002B4C36 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		0AA07CB42040569800186727 /* Hotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+		0AA07CB62040740000186727 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		0AA07CBC2040AA2600186727 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AA07CBE2040AA2700186727 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		0AA07CC02040AA2700186727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AA07CC82040E6E700186727 /* HotelCrete.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HotelCrete.entitlements; sourceTree = "<group>"; };
+		0AA07CC920414C2900186727 /* SocialMediaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaCell.swift; sourceTree = "<group>"; };
+		0AA07CCB20414CE100186727 /* SocialMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMedia.swift; sourceTree = "<group>"; };
+		0AA07CCD20415C9E00186727 /* AccommodationDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccommodationDetailController.swift; sourceTree = "<group>"; };
+		0AA07CCF20415E4400186727 /* AccommodationDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccommodationDetailCell.swift; sourceTree = "<group>"; };
+		0AA07CD22041655600186727 /* FacilitieDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilitieDetailController.swift; sourceTree = "<group>"; };
+		0AA07CD42041660E00186727 /* FacilitieDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilitieDetailCell.swift; sourceTree = "<group>"; };
+		0AA07CD7204195EE00186727 /* Crete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crete.swift; sourceTree = "<group>"; };
+		0AA07CD92041A1ED00186727 /* CreteMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreteMenuCell.swift; sourceTree = "<group>"; };
+		0AA07CDD2041C41300186727 /* CreteExtraDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreteExtraDetailCell.swift; sourceTree = "<group>"; };
+		0AA07CDF2041C45200186727 /* CreteExtraDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreteExtraDetailController.swift; sourceTree = "<group>"; };
+		0ADEF06A2062D13D009A7825 /* GuideCreteGeneralCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCreteGeneralCell.swift; sourceTree = "<group>"; };
+		0ADEF06C2062E407009A7825 /* Extension+NSAttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+NSAttributedString.swift"; sourceTree = "<group>"; };
+		1A16AE4EC2A931364AB413E6 /* Pods_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44CFC946E21254CB7F7F89FD /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		63F4D1C4E54D81D12845BF42 /* Pods_HotelCrete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HotelCrete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		663525F9320042C511930334 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		DC05E6D5E121489B61308B39 /* Pods-HotelCrete.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotelCrete.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HotelCrete/Pods-HotelCrete.debug.xcconfig"; sourceTree = "<group>"; };
+		EAD98D5E91014A76D5C60286 /* Pods-HotelCrete.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotelCrete.release.xcconfig"; path = "Pods/Target Support Files/Pods-HotelCrete/Pods-HotelCrete.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A0DF61E20352E32009EE949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B02E4ECCFDA7E00272E9D7F9 /* Pods_HotelCrete.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA07CB92040AA2600186727 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089F70B4C466F6D88B03C598 /* Pods_OneSignalNotificationServiceExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A095BC4204875F800C173C5 /* LocalizableStrings */ = {
+			isa = PBXGroup;
+			children = (
+				0A7393B72048F2D200A0DE8D /* ButtonTitles.strings */,
+				0A7393C12048F41C00A0DE8D /* Localizable.strings */,
+			);
+			path = LocalizableStrings;
+			sourceTree = "<group>";
+		};
+		0A0DF61820352E32009EE949 = {
+			isa = PBXGroup;
+			children = (
+				0A0DF62320352E32009EE949 /* HotelCrete */,
+				0AA07CBD2040AA2600186727 /* OneSignalNotificationServiceExtension */,
+				0A0DF62220352E32009EE949 /* Products */,
+				18B0975B8AA13E84AA815162 /* Pods */,
+				CB6139237DE7DCBBAAE474F9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A0DF62220352E32009EE949 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A0DF62120352E32009EE949 /* HotelCrete.app */,
+				0AA07CBC2040AA2600186727 /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A0DF62320352E32009EE949 /* HotelCrete */ = {
+			isa = PBXGroup;
+			children = (
+				0AA07CC82040E6E700186727 /* HotelCrete.entitlements */,
+				0A0DF66D203540A8009EE949 /* Models */,
+				0A0DF66C203540A0009EE949 /* Views */,
+				0A0DF66B20354098009EE949 /* Controllers */,
+				0A0DF63620353FD9009EE949 /* Helpers */,
+				0A0DF66E203540AE009EE949 /* Resources */,
+				0A0DF62420352E32009EE949 /* AppDelegate.swift */,
+				0A0DF62B20352E32009EE949 /* Assets.xcassets */,
+				0A0DF62D20352E32009EE949 /* LaunchScreen.storyboard */,
+				0A0DF63020352E32009EE949 /* Info.plist */,
+			);
+			path = HotelCrete;
+			sourceTree = "<group>";
+		};
+		0A0DF63620353FD9009EE949 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0A76FCEB204A5790001C18F6 /* MapLauncher */,
+				0A0DF66620354034009EE949 /* WebService */,
+				0A0DF6612035401F009EE949 /* NetworkDetect */,
+				0A0DF6562035400A009EE949 /* Contstants */,
+				0A0DF63720353FE0009EE949 /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0A0DF63720353FE0009EE949 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0A0DF6952035A774009EE949 /* Extension+UIButton */,
+				0A0DF63B20353FEF009EE949 /* Extension+Dictionary.swift */,
+				0ADEF06C2062E407009A7825 /* Extension+NSAttributedString.swift */,
+				0A0DF63A20353FEF009EE949 /* Extension+Notification.swift */,
+				0A0DF63D20353FEF009EE949 /* Extension+String.swift */,
+				0A0DF63E20353FEF009EE949 /* Extension+UIColor.swift */,
+				0A0DF64520353FEF009EE949 /* Extension+UIImage.swift */,
+				0A0DF63920353FEF009EE949 /* Extension+UIImageView.swift */,
+				0A0DF63C20353FEF009EE949 /* Extension+UIView.swift */,
+				0A0DF64420353FEF009EE949 /* Extension+UIViewAnchor.swift */,
+				0A0DF64620353FEF009EE949 /* Extension+UserDefault.swift */,
+				0A0DF64120353FEF009EE949 /* Extension+Codable.swift */,
+				0A0DF64220353FEF009EE949 /* Extension+Date.swift */,
+				0A0DF64020353FEF009EE949 /* Extension+UILable.swift */,
+				0A0DF64320353FEF009EE949 /* Extension+Double.swift */,
+				0A0DF63F20353FEF009EE949 /* Extension+Int.swift */,
+				0A0DF63820353FEF009EE949 /* Extension+UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0A0DF6562035400A009EE949 /* Contstants */ = {
+			isa = PBXGroup;
+			children = (
+				0A0DF6572035401A009EE949 /* AlertMessages.swift */,
+				0A0DF65B2035401B009EE949 /* AssetName.swift */,
+				0A0DF6582035401B009EE949 /* GlobalFunctions.swift */,
+				0A0DF6592035401B009EE949 /* LocalConstants.swift */,
+				0A0DF65A2035401B009EE949 /* StyleGuideManager.swift */,
+			);
+			path = Contstants;
+			sourceTree = "<group>";
+		};
+		0A0DF6612035401F009EE949 /* NetworkDetect */ = {
+			isa = PBXGroup;
+			children = (
+				0A0DF6622035402F009EE949 /* ReachabilityManager.swift */,
+				0A0DF6632035402F009EE949 /* Reachibility.swift */,
+			);
+			path = NetworkDetect;
+			sourceTree = "<group>";
+		};
+		0A0DF66620354034009EE949 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				0A095BCD2048AF8F00C173C5 /* MapDataProvider.swift */,
+				0A0DF6672035404D009EE949 /* APIService.swift */,
+				0A0DF6682035404D009EE949 /* ServerUrls.swift */,
+				0AA07CB62040740000186727 /* WebService.swift */,
+				0A76FCE9204A46D0001C18F6 /* LocationManager.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		0A0DF66B20354098009EE949 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0A0DF6892035414B009EE949 /* Auth */,
+				0A0DF68820354143009EE949 /* Main */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0A0DF66C203540A0009EE949 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A0DF671203540E0009EE949 /* CustomViews */,
+				0A0DF670203540D3009EE949 /* CollectionViewCells */,
+				0A0DF66F203540C2009EE949 /* TableViewCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0A0DF66D203540A8009EE949 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0A09DF022039B3F700EF5FBB /* HotelMenu.swift */,
+				0A09DF1E2039EA8600EF5FBB /* Description.swift */,
+				0A09DF24203A074F00EF5FBB /* Introduction.swift */,
+				0A09DF28203A159000EF5FBB /* Service.swift */,
+				0A09DF3C203A3C9600EF5FBB /* Contact.swift */,
+				0AA07CCB20414CE100186727 /* SocialMedia.swift */,
+				0AA07CB42040569800186727 /* Hotel.swift */,
+				0AA07CD7204195EE00186727 /* Crete.swift */,
+				0A8F18482044B20B002B4C36 /* Message.swift */,
+				0A8F185220459A1E002B4C36 /* Weather.swift */,
+				0A8BB12E2045E3AB00D8A4AF /* GreekWord.swift */,
+				0A095BB52047ACFC00C173C5 /* UsefulInfo.swift */,
+				0A095BBB2047CA8600C173C5 /* UsefulNumbers.swift */,
+				0A095BCB2048A10C00C173C5 /* HotelMap.swift */,
+				0A5CC710205D7E690059A9BC /* Enums.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0A0DF66E203540AE009EE949 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0A095BC4204875F800C173C5 /* LocalizableStrings */,
+				0A0DF690203548A5009EE949 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0A0DF66F203540C2009EE949 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				0A0DF6862035412E009EE949 /* BaseTableViewCell.swift */,
+				0A09DF2A203A171400EF5FBB /* ServiceCell.swift */,
+				0A09DF3A203A396500EF5FBB /* ContactUsCell.swift */,
+				0AA07CC920414C2900186727 /* SocialMediaCell.swift */,
+				0A8F17E72043AEEF002B4C36 /* QuestionnaireCell.swift */,
+				0A8F18212043D861002B4C36 /* QuestionnaireRatingCell.swift */,
+				0A8F17D7204324E1002B4C36 /* GuideCreteDataCell.swift */,
+				0A8F17AE204249A1002B4C36 /* AboutCreteDetailCell.swift */,
+				0A8F184C2045959A002B4C36 /* WeatherHeaderCell.swift */,
+				0A8F18502045973D002B4C36 /* WeatherCell.swift */,
+				0A8BB12A2045DE3B00D8A4AF /* GreekWordHeader.swift */,
+				0A8BB12C2045DFAC00D8A4AF /* GreekWordCell.swift */,
+				0A095BB12047453500C173C5 /* GeneralInfoCell.swift */,
+				0A095BB92047C50F00C173C5 /* GeneralNumbersCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		0A0DF670203540D3009EE949 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				0AA07CDC2041C3E800186727 /* Crete */,
+				0AA07CDB2041A1FB00186727 /* Hotel */,
+				0A09DF1C2039CF5800EF5FBB /* DescriptionCell.swift */,
+				0A8F18462044A511002B4C36 /* MessageCell.swift */,
+				0A0DF68420354127009EE949 /* BaseCollectionViewCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		0A0DF671203540E0009EE949 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				0A8F17EB2043B4FE002B4C36 /* CustomPickers */,
+				0A0DF67220354100009EE949 /* Alerts.swift */,
+				0A0DF67520354100009EE949 /* CommentInputAccessoryView.swift */,
+				0A0DF67420354100009EE949 /* CommentInputTextView.swift */,
+				0A8BB1262045D78E00D8A4AF /* NALLabelsMatrix.swift */,
+				0A0DF67720354100009EE949 /* CustomTextView.swift */,
+				0A0DF67A20354101009EE949 /* GMDatePicker.swift */,
+				0A0DF67320354100009EE949 /* MenuBar.swift */,
+				0A095BC920489E3000C173C5 /* MapMenuBar.swift */,
+				0A0DF67620354100009EE949 /* PlaceholderTextView.swift */,
+				0A0DF67820354100009EE949 /* TopplessTextField.swift */,
+				0A0DF67920354101009EE949 /* VKCheckbox.swift */,
+				0A0DF69E2035F3E0009EE949 /* FlagButtonView.swift */,
+				0A09DEFA2038AB2E00EF5FBB /* CheckDateView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		0A0DF68820354143009EE949 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0A8F18432044A407002B4C36 /* SideMenu */,
+				0AA07CD62041935700186727 /* Crete */,
+				0AA07CD1204163BF00186727 /* Hotel */,
+				0A09DF1A2039CD5500EF5FBB /* DescriptionController.swift */,
+				0A398586204E036C00812328 /* FullScreenController.swift */,
+				0A0DF68A20354161009EE949 /* SideController.swift */,
+				0A0DF68C203541B6009EE949 /* HomeController.swift */,
+				0A398588204E106A00812328 /* NavigationController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0A0DF6892035414B009EE949 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				0A0DF68E2035467C009EE949 /* LoginController.swift */,
+				0A09DEF82038594200EF5FBB /* RegisterController.swift */,
+				0A8F1823204421B5002B4C36 /* GeneralRegisterController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		0A0DF690203548A5009EE949 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0A4A56372067BAC700F91635 /* launchImage.png */,
+				0A095BB32047592A00C173C5 /* generalInfo.png */,
+				0A8F184E204595D4002B4C36 /* weatherBackground.jpg */,
+				0A8F17DF2043A867002B4C36 /* east.png */,
+				0A8F17E32043AB39002B4C36 /* west.png */,
+				0A09DF2C203A1FA800EF5FBB /* services2.png */,
+				0A09DF092039B5EE00EF5FBB /* defaultServiceBackground.jpg */,
+				0A09DF0D2039B5EF00EF5FBB /* defaultFacilitiesBackground.jpg */,
+				0A09DF072039B5EE00EF5FBB /* defaultAccomodationBackground.jpg */,
+				0A09DF0B2039B5EE00EF5FBB /* Untitled-6.jpg */,
+				0A09DF0A2039B5EE00EF5FBB /* Untitled-7.jpg */,
+				0A09DF082039B5EE00EF5FBB /* Untitled-8.jpg */,
+				0A398582204D7C7500812328 /* guideToCrete.jpg */,
+				0A09DF0E2039B5EF00EF5FBB /* Untitled-9.jpg */,
+				0A09DF0C2039B5EE00EF5FBB /* aboutCrete.jpg */,
+				0A09DF042039B47600EF5FBB /* hotelMenu.jpg */,
+				0A09DF42203A567F00EF5FBB /* contactUs.jpg */,
+				0A09DF3E203A561100EF5FBB /* socialMedia.jpg */,
+				0A09DF40203A564500EF5FBB /* questionnaire.jpg */,
+				0A09DF34203A30CE00EF5FBB /* socialBackground.jpg */,
+				0A09DEFC2039473500EF5FBB /* homeBackground.jpg */,
+				0A0DF69320359CBE009EE949 /* logo 1.png */,
+				0A0DF691203548AE009EE949 /* logo.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		0A0DF6952035A774009EE949 /* Extension+UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				0A0DF6982035A78A009EE949 /* UIButton+FamAnimation.swift */,
+				0A0DF6972035A78A009EE949 /* UIButton+MagnificationAnimation.swift */,
+				0A0DF6962035A78A009EE949 /* UIButton+PressAnimation.swift */,
+				0A0DF6992035A78B009EE949 /* UIButton+SelectionAnimation.swift */,
+			);
+			path = "Extension+UIButton";
+			sourceTree = "<group>";
+		};
+		0A76FCEB204A5790001C18F6 /* MapLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				0A76FCEE204A57A1001C18F6 /* CMMapLauncher.h */,
+				0A76FCED204A57A1001C18F6 /* CMMapLauncher.m */,
+				0A76FCEC204A579F001C18F6 /* HotelCrete-Bridging-Header.h */,
+			);
+			path = MapLauncher;
+			sourceTree = "<group>";
+		};
+		0A8F17B820426D71002B4C36 /* AboutCrete */ = {
+			isa = PBXGroup;
+			children = (
+				0A8F17A620423BDE002B4C36 /* AboutCreteMenuController.swift */,
+				0A8F17AA204241DA002B4C36 /* AboutCreteDescriptionController.swift */,
+				0A8F17AC20424928002B4C36 /* AboutCreteDetailController.swift */,
+				0A8F17B0204255A0002B4C36 /* AboutCreteDetailDescriptionController.swift */,
+				0A8F17B220425A47002B4C36 /* AboutCreteGastronomyController.swift */,
+				0A8F17B620425C86002B4C36 /* AboutCreteGastronomyDescriptionController.swift */,
+			);
+			path = AboutCrete;
+			sourceTree = "<group>";
+		};
+		0A8F17B920426D8A002B4C36 /* GuideCrete */ = {
+			isa = PBXGroup;
+			children = (
+				0A8F17BA20426DE5002B4C36 /* GuideCreteMenuController.swift */,
+				0A8F17DD2043A7E7002B4C36 /* GuideCreteGeneralController.swift */,
+				0A76FCBD2049DAE9001C18F6 /* GuideCreteVillageController.swift */,
+				0A8F17BE204275DC002B4C36 /* GuideCreteListController.swift */,
+				0A8F182520442DA1002B4C36 /* GuideCreteSightSeeingController.swift */,
+				0A8F182920446228002B4C36 /* GuideCreteSightSeeingDetailController.swift */,
+				0A8F182D20446611002B4C36 /* GuideCreteSightSeeingDetailDirectionController.swift */,
+				0A8F17D5204323FC002B4C36 /* GuideCreteDataController.swift */,
+				0A8F183520448E0E002B4C36 /* GuideCreteDataAreaController.swift */,
+				0A8F1839204494A2002B4C36 /* GuideCreteDataAreaListController.swift */,
+				0A8F183D20449918002B4C36 /* GuideCreteDataAreaDirectionController.swift */,
+				0A8F184120449F6B002B4C36 /* GuideCreteDataTopController.swift */,
+				0A8F17D920432F28002B4C36 /* GuideCreteDataGeneralController.swift */,
+				0A8F183120447762002B4C36 /* GuideCreteDataGeneralDirectionController.swift */,
+			);
+			path = GuideCrete;
+			sourceTree = "<group>";
+		};
+		0A8F17EB2043B4FE002B4C36 /* CustomPickers */ = {
+			isa = PBXGroup;
+			children = (
+				0A8F17EE2043B517002B4C36 /* Views */,
+				0A8F17ED2043B510002B4C36 /* Pickers */,
+				0A8F17EC2043B509002B4C36 /* Extensions */,
+			);
+			path = CustomPickers;
+			sourceTree = "<group>";
+		};
+		0A8F17EC2043B509002B4C36 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0A8F18032043B535002B4C36 /* Array+Extensions.swift */,
+				0A8F18082043B536002B4C36 /* Common+Extensions.swift */,
+				0A8F18092043B537002B4C36 /* Date+Extension.swift */,
+				0A8F180A2043B537002B4C36 /* Locale+Extensions.swift */,
+				0A8F18052043B536002B4C36 /* Optional+Extensions.swift */,
+				0A8F18002043B534002B4C36 /* String+Extensions.swift */,
+				0A8F18062043B536002B4C36 /* UIAlertController+Extensions.swift */,
+				0A8F18042043B536002B4C36 /* UIColor+Extensions.swift */,
+				0A8F180B2043B537002B4C36 /* UIImage+Extensions.swift */,
+				0A8F17FF2043B534002B4C36 /* UISegmentedControl+Extensions.swift */,
+				0A8F18022043B535002B4C36 /* UITextField+Extensions.swift */,
+				0A8F18012043B535002B4C36 /* UITextView+Extensions.swift */,
+				0A8F18072043B536002B4C36 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0A8F17ED2043B510002B4C36 /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				0A8F17F42043B52C002B4C36 /* ColorPickerViewController.swift */,
+				0A8F17F22043B52B002B4C36 /* Countries.bundle */,
+				0A8F17F12043B52A002B4C36 /* DatePickerViewController.swift */,
+				0A8F17EF2043B52A002B4C36 /* ImagePickerViewController.swift */,
+				0A8F17F62043B52C002B4C36 /* LocalePickerViewController.swift */,
+				0A8F17F52043B52C002B4C36 /* OneTextFieldViewController.swift */,
+				0A8F17F32043B52C002B4C36 /* PickerViewViewController.swift */,
+				0A8F17F02043B52A002B4C36 /* TwoTextFieldsViewController.swift */,
+			);
+			path = Pickers;
+			sourceTree = "<group>";
+		};
+		0A8F17EE2043B517002B4C36 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A8F181A2043B53E002B4C36 /* GradientSlider.swift */,
+				0A8F181C2043B53E002B4C36 /* Label.swift */,
+				0A8F18192043B53E002B4C36 /* SegmentedControl.swift */,
+				0A8F181B2043B53E002B4C36 /* TextField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0A8F18432044A407002B4C36 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0A8F18442044A42B002B4C36 /* MessagesController.swift */,
+				0A8F184A20459475002B4C36 /* WeatherController.swift */,
+				0A8BB1282045D7E400D8A4AF /* GreekWordsController.swift */,
+				0A095BAF2047440700C173C5 /* GeneralInfoController.swift */,
+				0A095BB72047C3C800C173C5 /* UsefulNumbersController.swift */,
+				0A095BC72048964100C173C5 /* HotelMapController.swift */,
+				0A76FCBF2049EEED001C18F6 /* GeneralMapController.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		0AA07CBD2040AA2600186727 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				0AA07CBE2040AA2700186727 /* NotificationService.swift */,
+				0AA07CC02040AA2700186727 /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		0AA07CD1204163BF00186727 /* Hotel */ = {
+			isa = PBXGroup;
+			children = (
+				0A09DEFE2039B15000EF5FBB /* HotelMenuController.swift */,
+				0A09DF202039F79000EF5FBB /* IntroductionController.swift */,
+				0A5CC712205DF2060059A9BC /* HotelIntroController.swift */,
+				0A09DF30203A2AC100EF5FBB /* FacilitiesController.swift */,
+				0AA07CD22041655600186727 /* FacilitieDetailController.swift */,
+				0A09DF26203A143F00EF5FBB /* ServicesController.swift */,
+				0A09DF32203A2F9700EF5FBB /* AccommodationController.swift */,
+				0A8F17E52043AE89002B4C36 /* QuestionnaireController.swift */,
+				0AA07CCD20415C9E00186727 /* AccommodationDetailController.swift */,
+				0A09DF36203A30EC00EF5FBB /* SocialMediaController.swift */,
+				0A09DF38203A37B800EF5FBB /* ContactUsController.swift */,
+				0A398584204DAC3C00812328 /* ContactController.swift */,
+			);
+			path = Hotel;
+			sourceTree = "<group>";
+		};
+		0AA07CD62041935700186727 /* Crete */ = {
+			isa = PBXGroup;
+			children = (
+				0A8F17B920426D8A002B4C36 /* GuideCrete */,
+				0A8F17B820426D71002B4C36 /* AboutCrete */,
+				0A09DF182039BC4B00EF5FBB /* CreteMenuController.swift */,
+				0AA07CDF2041C45200186727 /* CreteExtraDetailController.swift */,
+				0A8F17A22041E0C7002B4C36 /* CreteExtraDetailGuideController.swift */,
+			);
+			path = Crete;
+			sourceTree = "<group>";
+		};
+		0AA07CDB2041A1FB00186727 /* Hotel */ = {
+			isa = PBXGroup;
+			children = (
+				0A09DF002039B1DB00EF5FBB /* HotelMenuCell.swift */,
+				0AA07CD42041660E00186727 /* FacilitieDetailCell.swift */,
+				0AA07CCF20415E4400186727 /* AccommodationDetailCell.swift */,
+				0A09DF22203A068C00EF5FBB /* IntroductionCell.swift */,
+				0A5CC714205DF39A0059A9BC /* HotelIntroCell.swift */,
+			);
+			path = Hotel;
+			sourceTree = "<group>";
+		};
+		0AA07CDC2041C3E800186727 /* Crete */ = {
+			isa = PBXGroup;
+			children = (
+				0AA07CDD2041C41300186727 /* CreteExtraDetailCell.swift */,
+				0ADEF06A2062D13D009A7825 /* GuideCreteGeneralCell.swift */,
+				0AA07CD92041A1ED00186727 /* CreteMenuCell.swift */,
+				0A8F17A820423CA7002B4C36 /* AboutCreteMenuCell.swift */,
+				0A8F17BC20426E42002B4C36 /* GuideCreteMenuCell.swift */,
+				0A8F17C02042762D002B4C36 /* GuideCreteListCell.swift */,
+				0A8F182720442E1A002B4C36 /* GuideCreteSightSeeingCell.swift */,
+				0A8F182B204462AF002B4C36 /* GuideCreteSightSeeingDetailCell.swift */,
+				0A8F182F20446692002B4C36 /* GuideCreteSightSeeingDetailDirectionCell.swift */,
+				0A8F183720448ED1002B4C36 /* GuideCreteDataAreaCell.swift */,
+				0A8F183B2044952D002B4C36 /* GuideCreteDataAreaListCell.swift */,
+				0A8F183F2044998D002B4C36 /* GuideCreteDataAreaDirectionCell.swift */,
+				0A8F17DB20433009002B4C36 /* GuideCreteDataGeneralCell.swift */,
+				0A8F1833204477C0002B4C36 /* GuideCreteDataGeneralDirectionCell.swift */,
+				0A8F17A42041E203002B4C36 /* CreteExtraDetailGuideCell.swift */,
+				0A8F17B420425B1B002B4C36 /* AboutCreteGastronomyCell.swift */,
+			);
+			path = Crete;
+			sourceTree = "<group>";
+		};
+		18B0975B8AA13E84AA815162 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC05E6D5E121489B61308B39 /* Pods-HotelCrete.debug.xcconfig */,
+				EAD98D5E91014A76D5C60286 /* Pods-HotelCrete.release.xcconfig */,
+				44CFC946E21254CB7F7F89FD /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				663525F9320042C511930334 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB6139237DE7DCBBAAE474F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63F4D1C4E54D81D12845BF42 /* Pods_HotelCrete.framework */,
+				1A16AE4EC2A931364AB413E6 /* Pods_OneSignalNotificationServiceExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A0DF62020352E32009EE949 /* HotelCrete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A0DF63320352E32009EE949 /* Build configuration list for PBXNativeTarget "HotelCrete" */;
+			buildPhases = (
+				DBCFE70811DD189AA1C288AC /* [CP] Check Pods Manifest.lock */,
+				0A0DF61D20352E32009EE949 /* Sources */,
+				0A0DF61E20352E32009EE949 /* Frameworks */,
+				0A0DF61F20352E32009EE949 /* Resources */,
+				92D8BF9EC9CFCB4E49FFB5AA /* [CP] Embed Pods Frameworks */,
+				30D3CCDB9E42D780579CB38B /* [CP] Copy Pods Resources */,
+				0AA07CC72040AA2700186727 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AA07CC22040AA2700186727 /* PBXTargetDependency */,
+			);
+			name = HotelCrete;
+			productName = HotelCrete;
+			productReference = 0A0DF62120352E32009EE949 /* HotelCrete.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AA07CBB2040AA2600186727 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AA07CC42040AA2700186727 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				492042096B63CFA4D69EE3CA /* [CP] Check Pods Manifest.lock */,
+				0AA07CB82040AA2600186727 /* Sources */,
+				0AA07CB92040AA2600186727 /* Frameworks */,
+				0AA07CBA2040AA2600186727 /* Resources */,
+				6E2C11DD70CEB89D0E4CF0B6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 0AA07CBC2040AA2600186727 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A0DF61920352E32009EE949 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "John Nik";
+				TargetAttributes = {
+					0A0DF62020352E32009EE949 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					0AA07CBB2040AA2600186727 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 0A0DF61C20352E32009EE949 /* Build configuration list for PBXProject "HotelCrete" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+				de,
+				ru,
+				it,
+			);
+			mainGroup = 0A0DF61820352E32009EE949;
+			productRefGroup = 0A0DF62220352E32009EE949 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A0DF62020352E32009EE949 /* HotelCrete */,
+				0AA07CBB2040AA2600186727 /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A0DF61F20352E32009EE949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A09DF132039B5EF00EF5FBB /* Untitled-7.jpg in Resources */,
+				0A0DF62F20352E32009EE949 /* LaunchScreen.storyboard in Resources */,
+				0A09DF122039B5EF00EF5FBB /* defaultServiceBackground.jpg in Resources */,
+				0A09DF41203A564500EF5FBB /* questionnaire.jpg in Resources */,
+				0A4A56382067BAC800F91635 /* launchImage.png in Resources */,
+				0A8F17FA2043B52D002B4C36 /* Countries.bundle in Resources */,
+				0A09DF112039B5EF00EF5FBB /* Untitled-8.jpg in Resources */,
+				0A095BB42047592B00C173C5 /* generalInfo.png in Resources */,
+				0A09DF43203A567F00EF5FBB /* contactUs.jpg in Resources */,
+				0A09DF052039B47600EF5FBB /* hotelMenu.jpg in Resources */,
+				0A0DF62C20352E32009EE949 /* Assets.xcassets in Resources */,
+				0A09DF2D203A1FA800EF5FBB /* services2.png in Resources */,
+				0A09DF172039B5EF00EF5FBB /* Untitled-9.jpg in Resources */,
+				0A09DF152039B5EF00EF5FBB /* aboutCrete.jpg in Resources */,
+				0A0DF692203548AE009EE949 /* logo.png in Resources */,
+				0A09DF162039B5EF00EF5FBB /* defaultFacilitiesBackground.jpg in Resources */,
+				0A398583204D7C7500812328 /* guideToCrete.jpg in Resources */,
+				0A0DF69420359CBE009EE949 /* logo 1.png in Resources */,
+				0A8F17E42043AB3A002B4C36 /* west.png in Resources */,
+				0A7393BF2048F41C00A0DE8D /* Localizable.strings in Resources */,
+				0A8F17E02043A867002B4C36 /* east.png in Resources */,
+				0A09DF35203A30CE00EF5FBB /* socialBackground.jpg in Resources */,
+				0A09DEFD2039473500EF5FBB /* homeBackground.jpg in Resources */,
+				0A09DF142039B5EF00EF5FBB /* Untitled-6.jpg in Resources */,
+				0A7393B52048F2D200A0DE8D /* ButtonTitles.strings in Resources */,
+				0A8F184F204595D4002B4C36 /* weatherBackground.jpg in Resources */,
+				0A09DF102039B5EF00EF5FBB /* defaultAccomodationBackground.jpg in Resources */,
+				0A09DF3F203A561100EF5FBB /* socialMedia.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA07CBA2040AA2600186727 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30D3CCDB9E42D780579CB38B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HotelCrete/Pods-HotelCrete-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HotelCrete/Pods-HotelCrete-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		492042096B63CFA4D69EE3CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E2C11DD70CEB89D0E4CF0B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92D8BF9EC9CFCB4E49FFB5AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HotelCrete/Pods-HotelCrete-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/HCSStarRatingView/HCSStarRatingView.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/ImagePicker/ImagePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework",
+				"${BUILT_PRODUCTS_DIR}/Localize-Swift/Localize_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/PMAlertController/PMAlertController.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/ShadowImageView/ShadowImageView.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenuController/SideMenuController.framework",
+				"${BUILT_PRODUCTS_DIR}/SpreadsheetView/SpreadsheetView.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HCSStarRatingView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImagePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageSlideshow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Localize_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PMAlertController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ShadowImageView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenuController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SpreadsheetView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HotelCrete/Pods-HotelCrete-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBCFE70811DD189AA1C288AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HotelCrete-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A0DF61D20352E32009EE949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A09DF192039BC4B00EF5FBB /* CreteMenuController.swift in Sources */,
+				0A095BB62047ACFC00C173C5 /* UsefulInfo.swift in Sources */,
+				0A0DF65220353FEF009EE949 /* Extension+Double.swift in Sources */,
+				0A09DF3B203A396500EF5FBB /* ContactUsCell.swift in Sources */,
+				0A8F17BF204275DC002B4C36 /* GuideCreteListController.swift in Sources */,
+				0A8F17B720425C86002B4C36 /* AboutCreteGastronomyDescriptionController.swift in Sources */,
+				0AA07CCC20414CE100186727 /* SocialMedia.swift in Sources */,
+				0A8F180C2043B537002B4C36 /* UISegmentedControl+Extensions.swift in Sources */,
+				0A8F181E2043B53E002B4C36 /* GradientSlider.swift in Sources */,
+				0A09DF2B203A171400EF5FBB /* ServiceCell.swift in Sources */,
+				0A0DF6692035404D009EE949 /* APIService.swift in Sources */,
+				0A8F17C12042762D002B4C36 /* GuideCreteListCell.swift in Sources */,
+				0A8F183C2044952D002B4C36 /* GuideCreteDataAreaListCell.swift in Sources */,
+				0A09DF212039F79000EF5FBB /* IntroductionController.swift in Sources */,
+				0A8F18112043B537002B4C36 /* UIColor+Extensions.swift in Sources */,
+				0A09DF33203A2F9700EF5FBB /* AccommodationController.swift in Sources */,
+				0AA07CCE20415C9E00186727 /* AccommodationDetailController.swift in Sources */,
+				0A8F182620442DA1002B4C36 /* GuideCreteSightSeeingController.swift in Sources */,
+				0A095BBA2047C50F00C173C5 /* GeneralNumbersCell.swift in Sources */,
+				0A095BCA20489E3000C173C5 /* MapMenuBar.swift in Sources */,
+				0A8F18152043B537002B4C36 /* Common+Extensions.swift in Sources */,
+				0A09DF032039B3F700EF5FBB /* HotelMenu.swift in Sources */,
+				0A5CC711205D7E690059A9BC /* Enums.swift in Sources */,
+				0A0DF64F20353FEF009EE949 /* Extension+UILable.swift in Sources */,
+				0A0DF68320354101009EE949 /* GMDatePicker.swift in Sources */,
+				0A095BB02047440700C173C5 /* GeneralInfoController.swift in Sources */,
+				0A09DF27203A143F00EF5FBB /* ServicesController.swift in Sources */,
+				0A8F184220449F6B002B4C36 /* GuideCreteDataTopController.swift in Sources */,
+				0A0DF68B20354161009EE949 /* SideController.swift in Sources */,
+				0ADEF06D2062E407009A7825 /* Extension+NSAttributedString.swift in Sources */,
+				0A398585204DAC3C00812328 /* ContactController.swift in Sources */,
+				0A8F17AD20424928002B4C36 /* AboutCreteDetailController.swift in Sources */,
+				0A095BCC2048A10C00C173C5 /* HotelMap.swift in Sources */,
+				0A09DF31203A2AC100EF5FBB /* FacilitiesController.swift in Sources */,
+				0A8F17DA20432F28002B4C36 /* GuideCreteDataGeneralController.swift in Sources */,
+				0A8F18172043B537002B4C36 /* Locale+Extensions.swift in Sources */,
+				0A8F17D6204323FC002B4C36 /* GuideCreteDataController.swift in Sources */,
+				0A095BB22047453500C173C5 /* GeneralInfoCell.swift in Sources */,
+				0A8F183220447762002B4C36 /* GuideCreteDataGeneralDirectionController.swift in Sources */,
+				0A0DF64C20353FEF009EE949 /* Extension+String.swift in Sources */,
+				0A8F182E20446611002B4C36 /* GuideCreteSightSeeingDetailDirectionController.swift in Sources */,
+				0A8F17A720423BDE002B4C36 /* AboutCreteMenuController.swift in Sources */,
+				0A8F182C204462AF002B4C36 /* GuideCreteSightSeeingDetailCell.swift in Sources */,
+				0A8F185320459A1E002B4C36 /* Weather.swift in Sources */,
+				0A8F17D8204324E1002B4C36 /* GuideCreteDataCell.swift in Sources */,
+				0A8F18202043B53E002B4C36 /* Label.swift in Sources */,
+				0A0DF65E2035401B009EE949 /* LocalConstants.swift in Sources */,
+				0A095BC82048964100C173C5 /* HotelMapController.swift in Sources */,
+				0A09DF23203A068C00EF5FBB /* IntroductionCell.swift in Sources */,
+				0A8F17B1204255A0002B4C36 /* AboutCreteDetailDescriptionController.swift in Sources */,
+				0A8F18182043B537002B4C36 /* UIImage+Extensions.swift in Sources */,
+				0A0DF64B20353FEF009EE949 /* Extension+UIView.swift in Sources */,
+				0A8F17F82043B52D002B4C36 /* TwoTextFieldsViewController.swift in Sources */,
+				0A8F1834204477C0002B4C36 /* GuideCreteDataGeneralDirectionCell.swift in Sources */,
+				0A0DF67F20354101009EE949 /* PlaceholderTextView.swift in Sources */,
+				0AA07CDA2041A1ED00186727 /* CreteMenuCell.swift in Sources */,
+				0A5CC715205DF39A0059A9BC /* HotelIntroCell.swift in Sources */,
+				0A76FCC02049EEED001C18F6 /* GeneralMapController.swift in Sources */,
+				0A0DF68120354101009EE949 /* TopplessTextField.swift in Sources */,
+				0A8F180F2043B537002B4C36 /* UITextField+Extensions.swift in Sources */,
+				0A0DF65C2035401B009EE949 /* AlertMessages.swift in Sources */,
+				0A09DF37203A30EC00EF5FBB /* SocialMediaController.swift in Sources */,
+				0A0DF64D20353FEF009EE949 /* Extension+UIColor.swift in Sources */,
+				0A398587204E036C00812328 /* FullScreenController.swift in Sources */,
+				0AA07CB72040740000186727 /* WebService.swift in Sources */,
+				0A0DF65020353FEF009EE949 /* Extension+Codable.swift in Sources */,
+				0A8F18132043B537002B4C36 /* UIAlertController+Extensions.swift in Sources */,
+				0A0DF68020354101009EE949 /* CustomTextView.swift in Sources */,
+				0A8BB12B2045DE3B00D8A4AF /* GreekWordHeader.swift in Sources */,
+				0A0DF64A20353FEF009EE949 /* Extension+Dictionary.swift in Sources */,
+				0A8F180D2043B537002B4C36 /* String+Extensions.swift in Sources */,
+				0A0DF65320353FEF009EE949 /* Extension+UIViewAnchor.swift in Sources */,
+				0A09DF39203A37B800EF5FBB /* ContactUsController.swift in Sources */,
+				0A8BB12F2045E3AB00D8A4AF /* GreekWord.swift in Sources */,
+				0A09DEFF2039B15100EF5FBB /* HotelMenuController.swift in Sources */,
+				0A8F18512045973D002B4C36 /* WeatherCell.swift in Sources */,
+				0A0DF6642035402F009EE949 /* ReachabilityManager.swift in Sources */,
+				0A0DF6602035401B009EE949 /* AssetName.swift in Sources */,
+				0A8F18492044B20B002B4C36 /* Message.swift in Sources */,
+				0AA07CCA20414C2900186727 /* SocialMediaCell.swift in Sources */,
+				0A8F182A20446228002B4C36 /* GuideCreteSightSeeingDetailController.swift in Sources */,
+				0AA07CE02041C45300186727 /* CreteExtraDetailController.swift in Sources */,
+				0A8F17FE2043B52D002B4C36 /* LocalePickerViewController.swift in Sources */,
+				0A0DF69A2035A78B009EE949 /* UIButton+PressAnimation.swift in Sources */,
+				0A8F17F72043B52D002B4C36 /* ImagePickerViewController.swift in Sources */,
+				0AA07CD52041660E00186727 /* FacilitieDetailCell.swift in Sources */,
+				0A8F183E20449918002B4C36 /* GuideCreteDataAreaDirectionController.swift in Sources */,
+				0A8BB1292045D7E400D8A4AF /* GreekWordsController.swift in Sources */,
+				0A0DF62520352E32009EE949 /* AppDelegate.swift in Sources */,
+				0A8F180E2043B537002B4C36 /* UITextView+Extensions.swift in Sources */,
+				0A8F17DE2043A7E7002B4C36 /* GuideCreteGeneralController.swift in Sources */,
+				0A8F183A204494A2002B4C36 /* GuideCreteDataAreaListController.swift in Sources */,
+				0A8F17E62043AE89002B4C36 /* QuestionnaireController.swift in Sources */,
+				0A8F183020446692002B4C36 /* GuideCreteSightSeeingDetailDirectionCell.swift in Sources */,
+				0A8F18472044A511002B4C36 /* MessageCell.swift in Sources */,
+				0A8F183620448E0E002B4C36 /* GuideCreteDataAreaController.swift in Sources */,
+				0A0DF6652035402F009EE949 /* Reachibility.swift in Sources */,
+				0A0DF67E20354101009EE949 /* CommentInputAccessoryView.swift in Sources */,
+				0AA07CD8204195EE00186727 /* Crete.swift in Sources */,
+				0A0DF67D20354101009EE949 /* CommentInputTextView.swift in Sources */,
+				0A8F17BB20426DE5002B4C36 /* GuideCreteMenuController.swift in Sources */,
+				0A8F18122043B537002B4C36 /* Optional+Extensions.swift in Sources */,
+				0A0DF6872035412E009EE949 /* BaseTableViewCell.swift in Sources */,
+				0A8F18452044A42B002B4C36 /* MessagesController.swift in Sources */,
+				0A8F17FD2043B52D002B4C36 /* OneTextFieldViewController.swift in Sources */,
+				0A095BBC2047CA8600C173C5 /* UsefulNumbers.swift in Sources */,
+				0A8F18222043D861002B4C36 /* QuestionnaireRatingCell.swift in Sources */,
+				0A095BB82047C3C800C173C5 /* UsefulNumbersController.swift in Sources */,
+				0A8F17A52041E203002B4C36 /* CreteExtraDetailGuideCell.swift in Sources */,
+				0A0DF67B20354101009EE949 /* Alerts.swift in Sources */,
+				0A0DF65D2035401B009EE949 /* GlobalFunctions.swift in Sources */,
+				0A09DF1B2039CD5500EF5FBB /* DescriptionController.swift in Sources */,
+				0AA07CD32041655600186727 /* FacilitieDetailController.swift in Sources */,
+				0A8BB1272045D78E00D8A4AF /* NALLabelsMatrix.swift in Sources */,
+				0A8BB12D2045DFAC00D8A4AF /* GreekWordCell.swift in Sources */,
+				0A0DF65F2035401B009EE949 /* StyleGuideManager.swift in Sources */,
+				0A0DF64820353FEF009EE949 /* Extension+UIImageView.swift in Sources */,
+				0A8F18402044998D002B4C36 /* GuideCreteDataAreaDirectionCell.swift in Sources */,
+				0A0DF65420353FEF009EE949 /* Extension+UIImage.swift in Sources */,
+				0A0DF68F2035467C009EE949 /* LoginController.swift in Sources */,
+				0A0DF64920353FEF009EE949 /* Extension+Notification.swift in Sources */,
+				0A8F17BD20426E42002B4C36 /* GuideCreteMenuCell.swift in Sources */,
+				0A8F182820442E1A002B4C36 /* GuideCreteSightSeeingCell.swift in Sources */,
+				0A0DF68220354101009EE949 /* VKCheckbox.swift in Sources */,
+				0A8F183820448ED1002B4C36 /* GuideCreteDataAreaCell.swift in Sources */,
+				0A8F18162043B537002B4C36 /* Date+Extension.swift in Sources */,
+				0A5CC713205DF2060059A9BC /* HotelIntroController.swift in Sources */,
+				0A0DF68520354127009EE949 /* BaseCollectionViewCell.swift in Sources */,
+				0A0DF69B2035A78B009EE949 /* UIButton+MagnificationAnimation.swift in Sources */,
+				0A8F17B320425A47002B4C36 /* AboutCreteGastronomyController.swift in Sources */,
+				0A8F18142043B537002B4C36 /* UIView+Extensions.swift in Sources */,
+				0A8F18102043B537002B4C36 /* Array+Extensions.swift in Sources */,
+				0A8F17E82043AEEF002B4C36 /* QuestionnaireCell.swift in Sources */,
+				0A8F17AB204241DA002B4C36 /* AboutCreteDescriptionController.swift in Sources */,
+				0A09DF29203A159000EF5FBB /* Service.swift in Sources */,
+				0A0DF68D203541B6009EE949 /* HomeController.swift in Sources */,
+				0A09DEF92038594200EF5FBB /* RegisterController.swift in Sources */,
+				0A8F17FC2043B52D002B4C36 /* ColorPickerViewController.swift in Sources */,
+				0A8F184D2045959A002B4C36 /* WeatherHeaderCell.swift in Sources */,
+				0A09DF1D2039CF5800EF5FBB /* DescriptionCell.swift in Sources */,
+				0A0DF64720353FEF009EE949 /* Extension+UIViewController.swift in Sources */,
+				0A8F17F92043B52D002B4C36 /* DatePickerViewController.swift in Sources */,
+				0A398589204E106A00812328 /* NavigationController.swift in Sources */,
+				0A8F17A920423CA7002B4C36 /* AboutCreteMenuCell.swift in Sources */,
+				0A09DF3D203A3C9600EF5FBB /* Contact.swift in Sources */,
+				0A09DEFB2038AB2E00EF5FBB /* CheckDateView.swift in Sources */,
+				0AA07CB52040569800186727 /* Hotel.swift in Sources */,
+				0A0DF69F2035F3E0009EE949 /* FlagButtonView.swift in Sources */,
+				0A8F17AF204249A1002B4C36 /* AboutCreteDetailCell.swift in Sources */,
+				0A0DF69D2035A78B009EE949 /* UIButton+SelectionAnimation.swift in Sources */,
+				0A8F17FB2043B52D002B4C36 /* PickerViewViewController.swift in Sources */,
+				0A09DF25203A074F00EF5FBB /* Introduction.swift in Sources */,
+				0A8F184B20459475002B4C36 /* WeatherController.swift in Sources */,
+				0A8F17DC20433009002B4C36 /* GuideCreteDataGeneralCell.swift in Sources */,
+				0AA07CD020415E4400186727 /* AccommodationDetailCell.swift in Sources */,
+				0A8F17A32041E0C7002B4C36 /* CreteExtraDetailGuideController.swift in Sources */,
+				0A0DF64E20353FEF009EE949 /* Extension+Int.swift in Sources */,
+				0A8F181F2043B53E002B4C36 /* TextField.swift in Sources */,
+				0A8F17B520425B1B002B4C36 /* AboutCreteGastronomyCell.swift in Sources */,
+				0A76FCEA204A46D0001C18F6 /* LocationManager.swift in Sources */,
+				0A0DF65120353FEF009EE949 /* Extension+Date.swift in Sources */,
+				0A0DF66A2035404D009EE949 /* ServerUrls.swift in Sources */,
+				0A0DF69C2035A78B009EE949 /* UIButton+FamAnimation.swift in Sources */,
+				0AA07CDE2041C41300186727 /* CreteExtraDetailCell.swift in Sources */,
+				0A8F1824204421B5002B4C36 /* GeneralRegisterController.swift in Sources */,
+				0A0DF67C20354101009EE949 /* MenuBar.swift in Sources */,
+				0A09DF1F2039EA8600EF5FBB /* Description.swift in Sources */,
+				0A76FCEF204A57A1001C18F6 /* CMMapLauncher.m in Sources */,
+				0A0DF65520353FEF009EE949 /* Extension+UserDefault.swift in Sources */,
+				0A76FCBE2049DAE9001C18F6 /* GuideCreteVillageController.swift in Sources */,
+				0ADEF06B2062D13D009A7825 /* GuideCreteGeneralCell.swift in Sources */,
+				0A095BCE2048AF8F00C173C5 /* MapDataProvider.swift in Sources */,
+				0A8F181D2043B53E002B4C36 /* SegmentedControl.swift in Sources */,
+				0A09DF012039B1DB00EF5FBB /* HotelMenuCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA07CB82040AA2600186727 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA07CBF2040AA2700186727 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AA07CC22040AA2700186727 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AA07CBB2040AA2600186727 /* OneSignalNotificationServiceExtension */;
+			targetProxy = 0AA07CC12040AA2700186727 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A0DF62D20352E32009EE949 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A76FCB320492410001C18F6 /* fr */,
+				0A76FCB420492410001C18F6 /* de */,
+				0A76FCB520492410001C18F6 /* ru */,
+				0A76FCB620492410001C18F6 /* it */,
+				0A4A56342067B42F00F91635 /* en */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0A7393B72048F2D200A0DE8D /* ButtonTitles.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A7393B62048F2D200A0DE8D /* en */,
+				0A7393C32048F42B00A0DE8D /* fr */,
+				0A7393C52048F43300A0DE8D /* de */,
+				0A7393C92048F43900A0DE8D /* ru */,
+				0A7393CC2048F44B00A0DE8D /* it */,
+			);
+			name = ButtonTitles.strings;
+			sourceTree = "<group>";
+		};
+		0A7393C12048F41C00A0DE8D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A7393C02048F41C00A0DE8D /* en */,
+				0A7393C42048F42B00A0DE8D /* fr */,
+				0A7393C62048F43300A0DE8D /* de */,
+				0A7393CA2048F43900A0DE8D /* ru */,
+				0A7393CD2048F44B00A0DE8D /* it */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A0DF63120352E32009EE949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A0DF63220352E32009EE949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A0DF63420352E32009EE949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC05E6D5E121489B61308B39 /* Pods-HotelCrete.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = HotelCrete/HotelCrete.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3ZY6X4R7MZ;
+				INFOPLIST_FILE = HotelCrete/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hotel121;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "779a1733-db14-4da6-b593-7f8000b557bd";
+				PROVISIONING_PROFILE_SPECIFIER = hotel_distri;
+				SWIFT_OBJC_BRIDGING_HEADER = "HotelCrete/Helpers/MapLauncher/HotelCrete-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A0DF63520352E32009EE949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAD98D5E91014A76D5C60286 /* Pods-HotelCrete.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = HotelCrete/HotelCrete.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3ZY6X4R7MZ;
+				INFOPLIST_FILE = HotelCrete/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hotel121;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "779a1733-db14-4da6-b593-7f8000b557bd";
+				PROVISIONING_PROFILE_SPECIFIER = hotel_distri;
+				SWIFT_OBJC_BRIDGING_HEADER = "HotelCrete/Helpers/MapLauncher/HotelCrete-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0AA07CC52040AA2700186727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44CFC946E21254CB7F7F89FD /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3ZY6X4R7MZ;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hotel121.onesignal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d78020a4-cc33-4902-b42b-0a2aa72eafff";
+				PROVISIONING_PROFILE_SPECIFIER = hotel_distri_onesignal;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AA07CC62040AA2700186727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 663525F9320042C511930334 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3ZY6X4R7MZ;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hotel121.onesignal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d78020a4-cc33-4902-b42b-0a2aa72eafff";
+				PROVISIONING_PROFILE_SPECIFIER = hotel_distri_onesignal;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A0DF61C20352E32009EE949 /* Build configuration list for PBXProject "HotelCrete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0DF63120352E32009EE949 /* Debug */,
+				0A0DF63220352E32009EE949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A0DF63320352E32009EE949 /* Build configuration list for PBXNativeTarget "HotelCrete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0DF63420352E32009EE949 /* Debug */,
+				0A0DF63520352E32009EE949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AA07CC42040AA2700186727 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA07CC52040AA2700186727 /* Debug */,
+				0AA07CC62040AA2700186727 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A0DF61920352E32009EE949 /* Project object */;
+}
